@@ -1,0 +1,33 @@
+{% extends "maps.html" %}
+{% load person_list_items static gravatar sekizai_tags %}
+
+{% block nav_li_class_home %} class="current"{% endblock %}
+
+{% block map %}
+
+{% addtoblock "js" %}
+<script type="text/options" class="map-options" data-zoom=2></script>
+{% endaddtoblock %}
+
+{% addtoblock "css" %}
+	<link rel="stylesheet" href="{% static "djangopeople/css/flags.css" %}" type="text/css" media="all" charset="utf-8">
+{% endaddtoblock %}
+
+	<div class="mapContainer major">
+		<div id="map">&nbsp;</div>
+	</div>
+{% endblock %}
+
+{% block content %}
+	<p class="mapnote">{% blocktrans with counter=people_list_limited|length %}Showing {{ counter }} recent signups (out of {{ total_people }}){% endblocktrans %}{% if user.is_anonymous %} - {% url "signup" as signup_url %}{% blocktrans %}if you're a Django developer, why not <a href="{{ signup_url }}">add yourself</a> to the site?{% endblocktrans %}{% endif %}</p>
+	<ul class="detailsList split">
+		{% person_list_items people_list_limited %}
+	</ul>
+	<ul class="detailsList split">
+		{% for country in countries %}
+			<li>
+				<a href="{% url "country_detail" country.iso_code|lower %}" class="nobg"><img src="{% static "djangopeople/img/blank.png" %}" class="flag iso-{{ country.iso_code|lower }}" alt="{{ country }}"></a> <a href="{% url "country_detail" country.iso_code|lower %}"><strong>{{ country }}</strong></a> {% blocktrans count counter=country.num_people %}{{ counter }} person{% plural %}{{ counter }} people{% endblocktrans %}
+			</li>
+		{% endfor %}
+	</ul>
+{% endblock %}

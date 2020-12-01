@@ -1,0 +1,1290 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Adam Stachowicz <saibamenppl@gmail.com>, 2015
+# angularcircle, 2013
+# m_aciek <maciej.olko@gmail.com>, 2016
+# m_aciek <maciej.olko@gmail.com>, 2015
+# Mariusz Waluga <mariusz.waluga@gmail.com>, 2016
+# Michał Pasternak <michal.dtz@gmail.com>, 2013
+# Tomasz Kajtoch <tomekkaj@tomekkaj.pl>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Django People\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-05 07:26+0000\n"
+"PO-Revision-Date: 2016-10-07 23:36+0000\n"
+"Last-Translator: m_aciek <maciej.olko@gmail.com>\n"
+"Language-Team: Polish (http://www.transifex.com/django/djangopeople/language/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: djangopeople/django_openidauth/models.py:8
+#: djangopeople/djangopeople/models.py:123
+msgid "User"
+msgstr "Użytkownik"
+
+#: djangopeople/django_openidauth/models.py:9
+#: djangopeople/django_openidconsumer/templates/openid_failure.html:28
+#: djangopeople/django_openidconsumer/templates/openid_signin.html:26
+#: djangopeople/djangopeople/templates/login.html:78
+msgid "OpenID"
+msgstr "OpenID"
+
+#: djangopeople/django_openidauth/models.py:10
+msgid "Creation date"
+msgstr "Data utworzenia"
+
+#: djangopeople/django_openidauth/templates/openid_associations.html:3
+#: djangopeople/django_openidauth/templates/openid_associations.html:21
+msgid "OpenID associations"
+msgstr "Powiązania OpenID"
+
+#: djangopeople/django_openidauth/templates/openid_associations.html:34
+msgid "Your account is currently associated with the following OpenID:"
+msgid_plural ""
+"Your account is currently associated with the following OpenIDs:"
+msgstr[0] "Twoje konto jest aktualnie powiązane z następującym OpenID:"
+msgstr[1] "Twoje konto jest aktualnie powiązane z następującymi OpenID:"
+msgstr[2] "Twoje konto jest aktualnie powiązane z następującymi OpenID:"
+
+#: djangopeople/django_openidauth/templates/openid_associations.html:37
+msgid "Remove association"
+msgstr "Usuń powiązanie"
+
+#: djangopeople/django_openidauth/templates/openid_associations.html:43
+msgid ""
+"You are currently logged in with the following OpenID. Click \"associate\" "
+"to allow it to be used to sign in to your account."
+msgid_plural ""
+"You are currently logged with the following OpenIDs. Click \"associate\" to "
+"allow an OpenID to be used to sign in to your account."
+msgstr[0] "Jesteś obecnie zalogowany z następującym OpenID. Kliknij „powiąż”, aby pozwolić na używanie go do logowania na twoje konto."
+msgstr[1] "Jesteś obecnie zalogowany z następującymi OpenID. Kliknij „powiąż”, aby pozwolić na używanie OpenID do logowania na twoje konto."
+msgstr[2] "Jesteś obecnie zalogowany z następującymi OpenID. Kliknij „powiąż”, aby pozwolić na używanie OpenID do logowania na twoje konto."
+
+#: djangopeople/django_openidauth/templates/openid_associations.html:46
+msgid "Associate"
+msgstr "Powiązanie"
+
+#: djangopeople/django_openidauth/templates/openid_associations.html:52
+msgid "To associate a new OpenID with this account, sign in with it here:"
+msgstr "Aby powiązać nowe OpenID z tym kontem, zaloguj się na nie tutaj:"
+
+#: djangopeople/django_openidauth/templates/openid_associations.html:57
+msgid "Authenticate and associate with this account"
+msgstr "Uwierzytelnij i powiąż z tym kontem"
+
+#: djangopeople/django_openidauth/views.py:69
+#: djangopeople/django_openidauth/views.py:88
+#, python-format
+msgid "%s has been associated with your account"
+msgstr "%s został powiązany z Twoim kontem"
+
+#: djangopeople/django_openidauth/views.py:74
+#: djangopeople/django_openidauth/views.py:93
+#, python-format
+msgid ""
+"%s could not be associated with your account, as it is already associated "
+"with a different account"
+msgstr "%s nie może zostać powiązany z Twoim kontem, gdyż jest już powiązany z innym."
+
+#: djangopeople/django_openidauth/views.py:104
+msgid "You need to set a password if you want to remove all of your OpenIDs"
+msgstr "Musisz ustawić hasło, jeśli chcesz usunąć wszystkie swoje OpenID"
+
+#: djangopeople/django_openidauth/views.py:110
+#, python-format
+msgid "%s has been removed from your account"
+msgstr "%s został usunięty z Twojego konta"
+
+#: djangopeople/django_openidconsumer/templates/openid_failure.html:4
+msgid "Open ID failed, Sign in with your OpenID"
+msgstr "Uwierzytelnienie OpenID nie powiodło się, zarejestruj się swoim OpenID"
+
+#: djangopeople/django_openidconsumer/templates/openid_failure.html:9
+#: djangopeople/django_openidconsumer/templates/openid_signin.html:4
+#: djangopeople/django_openidconsumer/templates/openid_signin.html:9
+msgid "Sign in with your OpenID"
+msgstr "Zaloguj się z OpenID"
+
+#: djangopeople/django_openidconsumer/templates/openid_failure.html:24
+msgid "OpenID failed"
+msgstr "Autentykacja OpenID nie powiodła się"
+
+#: djangopeople/django_openidconsumer/templates/openid_failure.html:32
+#: djangopeople/django_openidconsumer/templates/openid_signin.html:30
+msgid "Sign in"
+msgstr "Zaloguj się"
+
+#: djangopeople/django_openidconsumer/views.py:90
+msgid "i-names are not supported"
+msgstr "i-nazwy nie są wspierane"
+
+#: djangopeople/django_openidconsumer/views.py:96
+msgid "The OpenID was invalid"
+msgstr "OpenID był nieważny"
+
+#: djangopeople/django_openidconsumer/views.py:122
+msgid "The request was cancelled"
+msgstr "Zapytanie zostało anulowane"
+
+#: djangopeople/django_openidconsumer/views.py:126
+msgid "Setup needed"
+msgstr "Potrzebna konfiguracja"
+
+#: djangopeople/djangopeople/constants.py:26
+msgid "#django IRC"
+msgstr "#django IRC"
+
+#: djangopeople/djangopeople/forms.py:51
+msgid "Drag and zoom the map until the crosshair matches your location"
+msgstr "Przeciągnij i powiększ mapę tak, aby wskaźnik pokazywał Twoją lokalizację"
+
+#: djangopeople/djangopeople/forms.py:114
+#: djangopeople/djangopeople/templates/base.html:35
+msgid "Username"
+msgstr "Nazwa użytkownika"
+
+#: djangopeople/djangopeople/forms.py:116
+#: djangopeople/djangopeople/forms.py:357
+msgid "First name"
+msgstr "Imię"
+
+#: djangopeople/djangopeople/forms.py:117
+#: djangopeople/djangopeople/forms.py:358
+msgid "Last name"
+msgstr "Nazwisko"
+
+#: djangopeople/djangopeople/forms.py:118
+#: djangopeople/djangopeople/forms.py:359
+msgid "E-mail"
+msgstr "Adres email"
+
+#: djangopeople/djangopeople/forms.py:119
+#: djangopeople/djangopeople/forms.py:551
+#: djangopeople/djangopeople/templates/base.html:35
+msgid "Password"
+msgstr "Hasło"
+
+#: djangopeople/djangopeople/forms.py:121
+msgid "Password (again)"
+msgstr "Hasło (powtórz)"
+
+#: djangopeople/djangopeople/forms.py:125
+#: djangopeople/djangopeople/models.py:124
+msgid "Bio"
+msgstr "Biografia"
+
+#: djangopeople/djangopeople/forms.py:127
+#: djangopeople/djangopeople/forms.py:360
+#: djangopeople/djangopeople/templates/edit_finding.html:31
+msgid "Blog URL"
+msgstr "Adres URL bloga"
+
+#: djangopeople/djangopeople/forms.py:129
+#: djangopeople/djangopeople/forms.py:274
+#: djangopeople/djangopeople/models.py:74
+#: djangopeople/djangopeople/models.py:88
+#: djangopeople/djangopeople/models.py:127
+#: djangopeople/djangopeople/models.py:258
+#: djangopeople/djangopeople/templates/edit_location.html:43
+msgid "Country"
+msgstr "Kraj"
+
+#: djangopeople/djangopeople/forms.py:132
+#: djangopeople/djangopeople/forms.py:278
+#: djangopeople/djangopeople/models.py:137
+msgid "Location"
+msgstr "Lokalizacja"
+
+#: djangopeople/djangopeople/forms.py:134
+#: djangopeople/djangopeople/forms.py:275
+#: djangopeople/djangopeople/models.py:107
+#: djangopeople/djangopeople/models.py:131
+#: djangopeople/djangopeople/templates/edit_location.html:58
+msgid "Region"
+msgstr "Region"
+
+#: djangopeople/djangopeople/forms.py:137
+#: djangopeople/djangopeople/forms.py:362
+#: djangopeople/djangopeople/templates/edit_finding.html:68
+msgid "Search visibility"
+msgstr "Widoczność wyszukiwania"
+
+#: djangopeople/djangopeople/forms.py:140
+msgid "Allow search engines to index my profile page (recommended)"
+msgstr "Pozwól wyszukiwarkom internetowym indeksować mój profil (zalecane)"
+
+#: djangopeople/djangopeople/forms.py:141
+msgid "Don't allow search engines to index my profile page"
+msgstr "Nie pozwalaj wyszukiwarkom indeksować mojego profilu"
+
+#: djangopeople/djangopeople/forms.py:146
+msgid "Email privacy"
+msgstr "Prywatność e-mail"
+
+#: djangopeople/djangopeople/forms.py:148
+msgid "Anyone can see my email address"
+msgstr "Wszyscy mogą widzieć mój adres e-mail"
+
+#: djangopeople/djangopeople/forms.py:149
+msgid "Only logged-in users can see my email address"
+msgstr "Tylko zalogowani użytkownicy mogą widzieć mój adres e-mail"
+
+#: djangopeople/djangopeople/forms.py:150
+msgid "Noone can ever see my email address"
+msgstr "Nikt nigdy nie może widzieć mojego adresu e-mail"
+
+#: djangopeople/djangopeople/forms.py:154
+#: djangopeople/djangopeople/forms.py:378
+#: djangopeople/djangopeople/templates/edit_finding.html:78
+msgid "IM privacy"
+msgstr "Prywatność IM"
+
+#: djangopeople/djangopeople/forms.py:156
+msgid "Anyone can see my IM details"
+msgstr "Wszyscy mogą widzieć moje dane nt. komunikatorów"
+
+#: djangopeople/djangopeople/forms.py:157
+msgid "Only logged-in users can see my IM details"
+msgstr "Tylko zalogowaniu użytkownicy mogą widzieć moje dane nt. komunikatorów"
+
+#: djangopeople/djangopeople/forms.py:161
+#: djangopeople/djangopeople/forms.py:385
+#: djangopeople/djangopeople/templates/edit_finding.html:83
+msgid "IRC tracking"
+msgstr "Śledzenie IRC"
+
+#: djangopeople/djangopeople/forms.py:163
+msgid "Keep track of the last time I was seen on IRC (requires your IRC nick)"
+msgstr "Śledź ostatni raz, kiedy byłem widziany na IRC (wymaga twojego nicka IRC)"
+
+#: djangopeople/djangopeople/forms.py:165
+msgid "Don't record the last time I was seen on IRC"
+msgstr "Nie zapisuj ostatniego razu, kiedy byłem widziany na IRC"
+
+#: djangopeople/djangopeople/forms.py:169
+#: djangopeople/djangopeople/forms.py:393
+#: djangopeople/djangopeople/templates/edit_finding.html:36
+msgid "Looking for work?"
+msgstr "Szukasz pracy?"
+
+#: djangopeople/djangopeople/forms.py:171
+msgid "Not looking for work at the moment"
+msgstr "Nie szukam teraz pracy"
+
+#: djangopeople/djangopeople/forms.py:172
+msgid "Looking for freelance work"
+msgstr "Szukam pracy jako freelancer"
+
+#: djangopeople/djangopeople/forms.py:173
+msgid "Looking for full-time work"
+msgstr "Szukam pracy na etat"
+
+#: djangopeople/djangopeople/forms.py:177
+msgid "Your skills"
+msgstr "Twoje umiejętności"
+
+#: djangopeople/djangopeople/forms.py:185
+msgid "Password is required"
+msgstr "Hasło jest wymagane"
+
+#: djangopeople/djangopeople/forms.py:192
+msgid "Passwords must match"
+msgstr "Hasła muszą być takie same"
+
+#: djangopeople/djangopeople/forms.py:196
+msgid "That username is unavailable"
+msgstr "Ta nazwa użytkownika jest niedostępna"
+
+#: djangopeople/djangopeople/forms.py:220
+#: djangopeople/djangopeople/forms.py:406
+msgid "That e-mail is already in use"
+msgstr "Ten adres e-mail jest już w użyciu"
+
+#: djangopeople/djangopeople/forms.py:224
+msgid "Please don't use a disposable email address."
+msgstr "Prosimy nie używać jednorazowych adresów e-mail."
+
+#: djangopeople/djangopeople/forms.py:237
+#: djangopeople/djangopeople/forms.py:307
+msgid "The region you selected does not match the country"
+msgstr "Wybrany region nie pasuje do kraju"
+
+#: djangopeople/djangopeople/forms.py:245
+msgid "Change skills"
+msgstr "Zmień umiejętności"
+
+#: djangopeople/djangopeople/forms.py:293
+msgid "The ISO code of the country you selected is invalid."
+msgstr "Kod ISO wybranego kraju jest błędny"
+
+#: djangopeople/djangopeople/forms.py:370
+#: djangopeople/djangopeople/templates/edit_finding.html:73
+msgid "E-mail privacy"
+msgstr "Prywatność e-mail"
+
+#: djangopeople/djangopeople/forms.py:448
+#, python-format
+msgid "URL %d"
+msgstr "Adres URL %d"
+
+#: djangopeople/djangopeople/forms.py:451
+#, python-format
+msgid "Title %d"
+msgstr "Tytuł %d"
+
+#: djangopeople/djangopeople/forms.py:483
+msgid "You need to provide a URL"
+msgstr "Musisz podać adres URL"
+
+#: djangopeople/djangopeople/forms.py:489
+msgid "Current Password"
+msgstr "Aktualne hasło"
+
+#: djangopeople/djangopeople/forms.py:491
+msgid "New Password"
+msgstr "Nowe hasło"
+
+#: djangopeople/djangopeople/forms.py:492
+msgid "New Password (again)"
+msgstr "Nowe hasło (powtórz)"
+
+#: djangopeople/djangopeople/forms.py:504
+msgid "Please submit your current password."
+msgstr "Proszę podać aktualne hasło"
+
+#: djangopeople/djangopeople/forms.py:515
+msgid "The passwords did not match."
+msgstr "Hasła nie są takie same"
+
+#: djangopeople/djangopeople/forms.py:556
+msgid "Your password was invalid"
+msgstr "Hasło jest nieprawidłowe"
+
+#: djangopeople/djangopeople/groupedselect.py:81
+msgid ""
+"Select a valid choice. That choice is not one of the available choices."
+msgstr "Zaznacz poprawny wybór. Ten wybór nie jest dostępny."
+
+#: djangopeople/djangopeople/models.py:40
+#: djangopeople/djangopeople/models.py:87
+msgid "Name"
+msgstr "Nazwa"
+
+#: djangopeople/djangopeople/models.py:41
+msgid "ISO code"
+msgstr "kod ISO"
+
+#: djangopeople/djangopeople/models.py:42
+msgid "ISO numeric code"
+msgstr "Kod numeryczny ISO"
+
+#: djangopeople/djangopeople/models.py:44
+msgid "ISO alpha-3"
+msgstr "ISO alfa-3"
+
+#: djangopeople/djangopeople/models.py:45
+msgid "FIPS code"
+msgstr "Kod FIPS"
+
+#: djangopeople/djangopeople/models.py:46
+msgid "Continent"
+msgstr "Kontynent"
+
+#: djangopeople/djangopeople/models.py:48
+msgid "Capital"
+msgstr "Stolica"
+
+#: djangopeople/djangopeople/models.py:49
+msgid "Area in square kilometers"
+msgstr "Powierzchnia w kilometrach kwadratowych"
+
+#: djangopeople/djangopeople/models.py:50
+msgid "Population"
+msgstr "Populacja"
+
+#: djangopeople/djangopeople/models.py:51
+msgid "Currency code"
+msgstr "Kod waluty"
+
+#: djangopeople/djangopeople/models.py:53
+msgid "Languages"
+msgstr "Języki"
+
+#: djangopeople/djangopeople/models.py:54
+msgid "Geonames ID"
+msgstr "Geonames ID"
+
+#: djangopeople/djangopeople/models.py:63
+#: djangopeople/djangopeople/models.py:96
+msgid "Number of people"
+msgstr "Liczba ludności"
+
+#: djangopeople/djangopeople/models.py:75
+msgid "Countries"
+msgstr "Państwa"
+
+#: djangopeople/djangopeople/models.py:86
+msgid "Code"
+msgstr "Kod"
+
+#: djangopeople/djangopeople/models.py:89
+msgid "Flag"
+msgstr "Flaga"
+
+#: djangopeople/djangopeople/models.py:108
+#: djangopeople/djangopeople/templates/country.html:78
+msgid "Regions"
+msgstr "Regiony"
+
+#: djangopeople/djangopeople/models.py:135
+#: djangopeople/djangopeople/templates/edit_location.html:48
+msgid "Latitude"
+msgstr "Szerokość geograficzna"
+
+#: djangopeople/djangopeople/models.py:136
+#: djangopeople/djangopeople/templates/edit_location.html:53
+msgid "Longitude"
+msgstr "Długość geograficzna"
+
+#: djangopeople/djangopeople/models.py:140
+msgid "Profile views"
+msgstr "Wyświetlenia profilu"
+
+#: djangopeople/djangopeople/models.py:147
+msgid "OpenID server"
+msgstr "Serwer OpenID"
+
+#: djangopeople/djangopeople/models.py:149
+msgid "OpenID delegate"
+msgstr "Delegat OpenID"
+
+#: djangopeople/djangopeople/models.py:153
+msgid "Last active on IRC"
+msgstr "Ostatnio aktywny na IRC"
+
+#: djangopeople/djangopeople/models.py:169
+msgid "<none>"
+msgstr "<żaden>"
+
+#: djangopeople/djangopeople/models.py:230
+msgid "Django person"
+msgstr "Osoba Django"
+
+#: djangopeople/djangopeople/models.py:231
+msgid "Django people"
+msgstr "Ludzie Django"
+
+#: djangopeople/djangopeople/models.py:242
+#: djangopeople/djangopeople/models.py:256
+msgid "Title"
+msgstr "Tytuł"
+
+#: djangopeople/djangopeople/models.py:243
+#: djangopeople/djangopeople/models.py:257
+msgid "URL"
+msgstr "URL"
+
+#: djangopeople/djangopeople/models.py:244
+msgid "Contributor"
+msgstr "Kontrybutor"
+
+#: djangopeople/djangopeople/models.py:250
+msgid "Portfolio site"
+msgstr "Strona portfolio"
+
+#: djangopeople/djangopeople/models.py:251
+msgid "Portfolio sites"
+msgstr "Strony portfolio"
+
+#: djangopeople/djangopeople/models.py:264
+msgid "Country site"
+msgstr "Strona państwowa"
+
+#: djangopeople/djangopeople/models.py:265
+msgid "Country sites"
+msgstr "Strony państwowe"
+
+#: djangopeople/djangopeople/templates/404.html:3
+#: djangopeople/djangopeople/templates/404.html:6
+msgid "404 error"
+msgstr "Błąd 404"
+
+#: djangopeople/djangopeople/templates/404.html:10
+msgid "Page not found."
+msgstr "Strona nie została odnaleziona."
+
+#: djangopeople/djangopeople/templates/500.html:3
+#: djangopeople/djangopeople/templates/500.html:6
+msgid "500 error"
+msgstr "Błąd 500"
+
+#: djangopeople/djangopeople/templates/500.html:10
+msgid ""
+"Internal server error. This has been reported to the site administrator."
+msgstr "Wewnętrzny błąd serwera. To zdarzenie zostało zgłoszone do administratora strony"
+
+#: djangopeople/djangopeople/templates/about.html:4
+msgid "About"
+msgstr "Na temat"
+
+#: djangopeople/djangopeople/templates/about.html:9
+msgid "About Django People"
+msgstr "O Django People"
+
+#: djangopeople/djangopeople/templates/about.html:14
+#, python-format
+msgid ""
+"Django People lists %(count)s <a "
+"href=\"https://www.djangoproject.com/\">Django</a> developers from around "
+"the world, in %(countries)s different countries. The aim of the site is to "
+"help Django developers find like-minded souls near them, and hopefully kick-"
+"start some local meet-ups and user groups."
+msgstr "Listy Ludzi Django %(count)s <a href=\"https://www.djangoproject.com/\">Django</a> deweloperzy na całym świecie, w %(countries)s krajach. Celem strony jest ułatwienie deweloperom Django znalezienia ludzi z tą samą pasją w ich okolicy i rozpoczęcie lokalnych meet-up'ów oraz grup użytkowników."
+
+#: djangopeople/djangopeople/templates/about.html:16
+msgid ""
+"The site was originally built and open-sourced by <a href=\"/simon/\">Simon "
+"Willison</a> and <a href=\"/natbat/\">Natalie Downe</a>. The code is <a "
+"href=\"https://github.com/django/djangopeople\">available on github</a>. You"
+" can post feedback and bug reports on the repository's <a "
+"href=\"https://github.com/django/djangopeople/issues\">issues page</a>."
+msgstr "Strona została stworzona i otwarta źródłowo przez <a href=\"/simon/\">Simona Willisona</a> i <a href=\"/natbat/\">Natalie Downe</a>. Kod strony jest <a href=\"https://github.com/django/djangopeople\">dostępny na GitHubie</a>. Możesz zgłaszać swoje uwagi i znalezione błędy na <a href=\"https://github.com/django/djangopeople/issues\">stronie issues</a>."
+
+#: djangopeople/djangopeople/templates/about.html:18
+msgid "Colophon"
+msgstr "Kolofon"
+
+#: djangopeople/djangopeople/templates/about.html:20
+msgid ""
+"Country data and location lookups come from <a "
+"href=\"http://www.geonames.org/\">GeoNames</a>, while the maps themselves "
+"are from <a href=\"http://www.openstreetmap.org\">OpenStreetMap</a> and "
+"powered by <a href=\"http://leaflet.cloudmade.com/\">Leaflet</a>. Country "
+"flags and icons are by <a href=\"http://famfamfam.com/lab/icons/\">Mark "
+"James</a>; US state flags come <a "
+"href=\"http://en.wikipedia.org/wiki/Flags_of_the_U.S._states\" title=\"Flags"
+" of the U.S. states\">from Wikipedia</a>. Profile pictures come from <a "
+"href=\"http://en.gravatar.com/\">Gravatar</a>."
+msgstr "Dane regionalne i wyszukiwarka lokalizacji pochodzą z <a href=\"http://www.geonames.org/\">GeoNames</a>, natomiast same mapy to <a href=\"http://www.openstreetmap.org\">OpenStreetMap</a> działające z pomocą <a href=\"http://leaflet.cloudmade.com/\">Leaflet</a>. Flagi państw i ikony zostały stworzone przez <a href=\"http://famfamfam.com/lab/icons/\">Marka Jamesa</a>; flagi stanów USA pochodzą <a href=\"http://en.wikipedia.org/wiki/Flags_of_the_U.S._states\" title=\"Flags of the U.S. states\">z Wikipedii</a>. Zdjęcia profilowe pochodzą z <a href=\"http://en.gravatar.com/\">Gravatara</a>."
+
+#: djangopeople/djangopeople/templates/about.html:22
+msgid ""
+"Deployment is <a href=\"http://gunicorn.org\">gunicorn</a>, hosted on <a "
+"href=\"http://www.heroku.com/\">Heroku</a>."
+msgstr "Wdrożono używając <a href=\"http://gunicorn.org\">gunicorn'a</a> hostowanego na <a href=\"http://www.heroku.com/\">Heroku</a>."
+
+#: djangopeople/djangopeople/templates/about.html:24
+msgid "A Django joint."
+msgstr "Połączenie Django."
+
+#: djangopeople/djangopeople/templates/base.html:18
+msgid "home"
+msgstr "strona główna"
+
+#: djangopeople/djangopeople/templates/base.html:19
+msgid "about"
+msgstr "o stronie"
+
+#: djangopeople/djangopeople/templates/base.html:20
+msgid "search"
+msgstr "szukaj"
+
+#: djangopeople/djangopeople/templates/base.html:24
+msgid "sign up as a django person"
+msgstr "Zarejestruj się jako Osoba Django"
+
+#: djangopeople/djangopeople/templates/base.html:27
+#, python-format
+msgid "You are logged in as <strong>%(user)s</strong>"
+msgstr "Jesteś zalogowany jako <strong>%(user)s</strong>"
+
+#: djangopeople/djangopeople/templates/base.html:28
+msgid "your profile"
+msgstr "twój profil"
+
+#: djangopeople/djangopeople/templates/base.html:29
+msgid "your account"
+msgstr "twoje konto"
+
+#: djangopeople/djangopeople/templates/base.html:30
+msgid "log out"
+msgstr "wyloguj"
+
+#: djangopeople/djangopeople/templates/base.html:35
+#: djangopeople/djangopeople/templates/login.html:4
+#: djangopeople/djangopeople/templates/login.html:9
+#: djangopeople/djangopeople/templates/login.html:68
+msgid "Log in"
+msgstr "Zaloguj"
+
+#: djangopeople/djangopeople/templates/base.html:37
+#, python-format
+msgid "Or <a href=\"%(openid_url)s\">log in with <strong>OpenID</strong>"
+msgstr "Lub <a href=\"%(openid_url)s\">zaloguj poprzez <strong>OpenID</strong>"
+
+#: djangopeople/djangopeople/templates/base.html:43
+msgid "Django People"
+msgstr "Django People"
+
+#: djangopeople/djangopeople/templates/base.html:44
+msgid ""
+"Discover users of the <a href=\"https://www.djangoproject.com/\">Django Web "
+"framework</a> near you"
+msgstr "Odkryj osoby z <a href=\"https://www.djangoproject.com/\">Django Web framework</a> w pobliżu"
+
+#: djangopeople/djangopeople/templates/base.html:55
+msgid "Hosted on <span class=\"heroku\">Heroku</span>"
+msgstr "Hostowane na <span class=\"heroku\">Heroku</span>"
+
+#: djangopeople/djangopeople/templates/country.html:28
+#: djangopeople/djangopeople/templates/country.html:30
+#, python-format
+msgid "%(counter)s Django person"
+msgid_plural "%(counter)s Django people"
+msgstr[0] "%(counter)s osoba Django"
+msgstr[1] "%(counter)s osób Django"
+msgstr[2] "%(counter)s osób Django"
+
+#: djangopeople/djangopeople/templates/country.html:45
+#, python-format
+msgid "Django community sites in %(country)s"
+msgstr "Strony społeczności Django w %(country)s"
+
+#: djangopeople/djangopeople/templates/country.html:56
+#, python-format
+msgid "Page %(num)s of %(total)s"
+msgstr "Strona %(num)s z %(total)s"
+
+#: djangopeople/djangopeople/templates/country.html:82
+#: djangopeople/djangopeople/templates/index.html:35
+#: djangopeople/djangopeople/templates/irc_active.html:8
+#: djangopeople/djangopeople/templates/skills.html:20
+#, python-format
+msgid "%(counter)s person"
+msgid_plural "%(counter)s people"
+msgstr[0] "%(counter)s osoba"
+msgstr[1] "%(counter)s osób"
+msgstr[2] "%(counter)s ludzi"
+
+#: djangopeople/djangopeople/templates/country_looking_for.html:4
+#, python-format
+msgid "People in %(country)s looking for %(looking_for)s"
+msgstr "Ludzi w %(country)s szukających %(looking_for)s"
+
+#: djangopeople/djangopeople/templates/country_looking_for.html:7
+#, python-format
+msgid "%(country)s, seeking %(looking_for)s work"
+msgstr "%(country)s szuka %(looking_for)s prac"
+
+#: djangopeople/djangopeople/templates/country_sites.html:4
+#: djangopeople/djangopeople/templates/country_sites.html:7
+#, python-format
+msgid "Sites in %(country)s"
+msgstr "Strony w %(country)s"
+
+#: djangopeople/djangopeople/templates/country_sites.html:16
+#, python-format
+msgid "<a href=\"%(url)s\">%(title)s</a> by <a href=\"%(author_url)s\">%(author)s</a>"
+msgstr "<a href=\"%(url)s\">%(title)s</a> przez <a href=\"%(author_url)s\">%(author)s</a>"
+
+#: djangopeople/djangopeople/templates/delete_account.html:4
+msgid ""
+"Please enter your password to confirm your ownership of this account. You "
+"account removal will be effective immediately and permanently after you "
+"submit this form."
+msgstr "Wprowadź swoje hasło w celu potwierdzenia swojej tożsamości. Procesu usunięcia konta nie da się cofnąć i nastąpi on od razu po wysłaniu tego formularza."
+
+#: djangopeople/djangopeople/templates/delete_account.html:7
+msgid "Delete my account"
+msgstr "Usuń moje konto"
+
+#: djangopeople/djangopeople/templates/delete_account.txt:1
+#, python-format
+msgid "Dear %(name)s,"
+msgstr "Szanowny %(name)s,"
+
+#: djangopeople/djangopeople/templates/delete_account.txt:3
+#, python-format
+msgid ""
+"It seems you're willing to delete your account from %(domain)s. You can "
+"delete your account by following the instructions on the link below:"
+msgstr "Wygląda na to, że chcesz usunąć swoje konto z %(domain)s. Możesz to zrobić kierując się instrukcjami dostępnymi pod linkiem poniżej:"
+
+#: djangopeople/djangopeople/templates/delete_account.txt:7
+msgid "For security reasons, this link will stay valid for only 5 minutes."
+msgstr "Dla bezpieczeństwa ten link będzie ważny tylko przez 5 minut."
+
+#: djangopeople/djangopeople/templates/delete_account_done.html:3
+msgid "Account deleted"
+msgstr "Konto usunięte"
+
+#: djangopeople/djangopeople/templates/delete_account_done.html:6
+msgid "It's sad to see you go, but your account was successfully deleted."
+msgstr "Twoje konto zostało usunięte. To smutne patrzeć, jak odchodzisz."
+
+#: djangopeople/djangopeople/templates/delete_account_next.html:4
+msgid ""
+"Check your email! An email was just sent to you, follow the link in it to "
+"finalize your account deletion."
+msgstr "Sprawdź swoją skrzynkę e-mail! Wiadomość właśnie została do Ciebie wysłana. Kliknij w link wewnątrz wiadomości w celu dokończenia procesu usuwania konta."
+
+#: djangopeople/djangopeople/templates/delete_account_request.html:3
+#: djangopeople/djangopeople/templates/delete_account_request.html:5
+msgid "Account deletion"
+msgstr "Usunięcie konta"
+
+#: djangopeople/djangopeople/templates/delete_account_request.html:8
+msgid ""
+"You are about to request complete removal of your account and data from this"
+" site. This will be done using the following process:"
+msgstr "Masz zamiar całkowicie usunąć swoje konto i wszystkie dane z nim powiązane ze strony. Proces usunięcia konta przebiega w następujący sposób:"
+
+#: djangopeople/djangopeople/templates/delete_account_request.html:10
+msgid ""
+"When you submit the following form, you will receive an email with a private"
+" link."
+msgstr "Kiedy wyślesz ten formularz, otrzymasz e-mail z prywatnym linkiem."
+
+#: djangopeople/djangopeople/templates/delete_account_request.html:11
+msgid ""
+"This link (valid for 5 minutes only) will take you to a page where you can "
+"enter your password to actually delete your account."
+msgstr "Ten link (ważny tylko przez 5 minut) zabierze Cię do strony na której możesz wpisać swoje hasło w celu usunięcia konta."
+
+#: djangopeople/djangopeople/templates/delete_account_request.html:13
+msgid "If you are ready to proceed, submit the form below."
+msgstr "Jeśli jesteś gotowy, aby przejść dalej, wypełnij formularz poniżej."
+
+#: djangopeople/djangopeople/templates/delete_account_request.html:16
+msgid "Request account deletion"
+msgstr "Zgłoś prośbę o usunięcie konta"
+
+#: djangopeople/djangopeople/templates/delete_account_subject.txt:1
+#, python-format
+msgid "Account deletion on %(domain)s"
+msgstr "Usunięcie konta na %(domain)s"
+
+#: djangopeople/djangopeople/templates/edit_account.html:3
+#: djangopeople/djangopeople/templates/edit_account.html:8
+msgid "Account settings"
+msgstr "Ustawienia konta"
+
+#: djangopeople/djangopeople/templates/edit_account.html:13
+#: djangopeople/djangopeople/templates/edit_location.html:4
+#: djangopeople/djangopeople/templates/edit_location.html:7
+msgid "Change your location"
+msgstr "Zmień swoją lokalizację"
+
+#: djangopeople/djangopeople/templates/edit_account.html:14
+msgid "Update your contact details"
+msgstr "Zaktualizuj swoje szczegóły kontaktu"
+
+#: djangopeople/djangopeople/templates/edit_account.html:15
+msgid "Change your privacy settings"
+msgstr "Zmień swoje ustawienia prywatności"
+
+#: djangopeople/djangopeople/templates/edit_account.html:16
+msgid "Add sites to your portfolio"
+msgstr "Dodaj strony do swojego portfolio"
+
+#: djangopeople/djangopeople/templates/edit_account.html:17
+#: djangopeople/djangopeople/templates/edit_password.html:3
+#: djangopeople/djangopeople/templates/edit_password.html:8
+msgid "Change your password"
+msgstr "Zmień swoje hasło"
+
+#: djangopeople/djangopeople/templates/edit_account.html:17
+#, python-format
+msgid ""
+"You do not have a password set - <a href=\"%(password_url)s\">set one "
+"now?</a>"
+msgstr "Nie masz ustawionego hasła - <a href=\"%(password_url)s\">ustawić je teraz?</a>"
+
+#: djangopeople/djangopeople/templates/edit_account.html:18
+msgid "Delete your account"
+msgstr "Usuń swoje konto"
+
+#: djangopeople/djangopeople/templates/edit_account.html:24
+#, python-format
+msgid ""
+"You have %(counter)s OpenID associated with your account. <a "
+"href=\"%(openid_url)s\">Manage your OpenID</a>"
+msgid_plural ""
+"You have %(counter)s OpenIDs associated with your account. <a "
+"href=\"%(openid_url)s\">Manage your OpenIDs</a>"
+msgstr[0] "Masz %(counter)s OpenID związane ze swoim kontem. <a href=\"%(openid_url)s\">Zarządzaj swoimi OpenID</a>"
+msgstr[1] "Masz %(counter)s OpenID związane ze swoim kontem. <a href=\"%(openid_url)s\">Zarządzaj swoimi OpenID</a>"
+msgstr[2] "Masz %(counter)s OpenID związanych ze swoim kontem. <a href=\"%(openid_url)s\">Zarządzaj swoimi OpenID</a>"
+
+#: djangopeople/djangopeople/templates/edit_account.html:27
+#, python-format
+msgid ""
+"If you have an <a href=\"http://openid.net/\">OpenID</a>, you can <a "
+"href=\"%(openid_url)s\">associate it with your account</a>. This will allow "
+"you to log in using your OpenID instead of your password."
+msgstr "Jeśli masz <a href=\"https://pl.wikipedia.org/wiki/OpenID\">OpenID</a>, możesz <a href=\"%(openid_url)s\">powiązać je ze swoim kontem</a>. Umożliwi ci to logowanie się z użyciem twojego OpenID zamiast twojego hasła."
+
+#: djangopeople/djangopeople/templates/edit_account.html:31
+msgid "Advanced: Use your profile page as an OpenID"
+msgstr "Zaawansowane: Użyj swojej strony profilowej jako OpenID"
+
+#: djangopeople/djangopeople/templates/edit_account.html:34
+msgid ""
+"If you already have an OpenID, you can configure your Django People profile "
+"page to delegate to it. This means you'll be able to use your profile page "
+"as an OpenID, without having to sign in to Django People first."
+msgstr "Jeśli masz już OpenID, możesz skonfigurować swoją stronę profilową Django People, aby do niego delegowała. To znaczy, że będziesz mógł używać swojej strony profilowej jako OpenID, bez konieczności logowania się najpierw do Django People."
+
+#: djangopeople/djangopeople/templates/edit_account.html:37
+msgid ""
+"Read <a href=\"http://simonwillison.net/2006/Dec/19/openid/\">more about "
+"delegation</a> to learn how to use this form."
+msgstr "Przeczytaj <a href=\"http://simonwillison.net/2006/Dec/19/openid/\">więcej na temat delegacji</a>, aby dowiedzieć się jak użyć ten formularz."
+
+#: djangopeople/djangopeople/templates/edit_account.html:42
+msgid "Update OpenID delegation"
+msgstr "Zaktualizuj delegację OpenID"
+
+#: djangopeople/djangopeople/templates/edit_bio.html:3
+#: djangopeople/djangopeople/templates/edit_bio.html:6
+msgid "Edit your bio"
+msgstr "Edytuj swoją biografię"
+
+#: djangopeople/djangopeople/templates/edit_bio.html:11
+msgid ""
+"No HTML allowed, but paragraph tags will be added automatically and URLs "
+"will be turned in to links."
+msgstr "Niedozwolony HTML, ale tagi akapitów zostaną dodane automatycznie a URL-e zostaną przekształcone w linki."
+
+#: djangopeople/djangopeople/templates/edit_bio.html:15
+msgid "Update bio"
+msgstr "Aktualizuj biografię"
+
+#: djangopeople/djangopeople/templates/edit_finding.html:3
+#: djangopeople/djangopeople/templates/edit_finding.html:6
+msgid "Edit contact information"
+msgstr "Edytuj informacje o kontakcie"
+
+#: djangopeople/djangopeople/templates/edit_finding.html:12
+msgid "Contact details"
+msgstr "Szczegóły kontaktu"
+
+#: djangopeople/djangopeople/templates/edit_finding.html:26
+msgid "E-mail *"
+msgstr "Adres email *"
+
+#: djangopeople/djangopeople/templates/edit_finding.html:40
+msgid "Other profiles"
+msgstr "Inne profile"
+
+#: djangopeople/djangopeople/templates/edit_finding.html:42
+#: djangopeople/djangopeople/templates/signup.html:105
+msgid "Got profiles on other sites? Enter the URLs below:"
+msgstr "Masz profile na innych stronach? Wpisz URL-e poniżej:"
+
+#: djangopeople/djangopeople/templates/edit_finding.html:51
+msgid "Instant messaging"
+msgstr "Komunikator"
+
+#: djangopeople/djangopeople/templates/edit_finding.html:53
+#: djangopeople/djangopeople/templates/signup.html:116
+msgid "Use any instant messaging software?"
+msgstr "Użyć jakiegoś komunikatora?"
+
+#: djangopeople/djangopeople/templates/edit_finding.html:63
+msgid "Privacy settings"
+msgstr "Ustawienia prywatności"
+
+#: djangopeople/djangopeople/templates/edit_finding.html:65
+#: djangopeople/djangopeople/templates/signup.html:128
+msgid ""
+"You can set your profile page not to show up in external search engine "
+"results (such as Google or Yahoo!)"
+msgstr "Możesz ustawić, aby strona twojego profilu nie pojawiała się w wynikach wyszukiwania w zewnętrznych wyszukiwarkach (takich jak Google lub Yahoo!)"
+
+#: djangopeople/djangopeople/templates/edit_finding.html:88
+msgid "Save changes"
+msgstr "Zapisz zmiany"
+
+#: djangopeople/djangopeople/templates/edit_location.html:24
+#: djangopeople/djangopeople/templates/signup.html:60
+msgid ""
+"<strong>Zoom and center the map on your location</strong>. Your map location"
+" will be shared in public, so only make it as accurate as makes you "
+"comfortable."
+msgstr "<strong>Powiększ i wyśrodkuj mapę na swojej lokacji</strong>. Twoja lokacja na mapie będzie udostępniona publicznie, więc uczyń ją tak dokładną, abyś się dobrze z tym czuł."
+
+#: djangopeople/djangopeople/templates/edit_location.html:37
+msgid "Location *"
+msgstr "Lokalizacja *"
+
+#: djangopeople/djangopeople/templates/edit_location.html:40
+#: djangopeople/djangopeople/templates/signup.html:78
+msgid ""
+"A short textual description of your location will be displayed on the site. "
+"We attempt to derive this from your position on the map, but you can "
+"customise it if you like."
+msgstr "Krótki opis tekstowy twojej lokacji będzie wyświetlany na stronie. Próbujemy odczytać go z twojej pozycji na mapie, ale możesz go zmienić jeśli masz ochotę."
+
+#: djangopeople/djangopeople/templates/edit_location.html:62
+msgid "Change location"
+msgstr "Zmień lokalizację"
+
+#: djangopeople/djangopeople/templates/edit_password.html:14
+msgid "Change password"
+msgstr "Zmień hasło"
+
+#: djangopeople/djangopeople/templates/edit_portfolio.html:4
+#: djangopeople/djangopeople/templates/edit_portfolio.html:7
+msgid "Update your portfolio"
+msgstr "Zaktualizuj swoje portfolio"
+
+#: djangopeople/djangopeople/templates/edit_portfolio.html:23
+msgid ""
+"Show off the sites and projects you've personally built (or contributed to) "
+"using Django."
+msgstr "Zaprezentuj strony i projekty, które osobiście tworzyłeś (lub współtworzyłeś) przy użyciu Django."
+
+#: djangopeople/djangopeople/templates/edit_portfolio.html:26
+msgid "Update portfolio"
+msgstr "Zaktualizuj portfolio"
+
+#: djangopeople/djangopeople/templates/edit_skills.html:3
+#: djangopeople/djangopeople/templates/edit_skills.html:6
+msgid "Update your skills"
+msgstr "Zaktualizuj swoje umiejętności"
+
+#: djangopeople/djangopeople/templates/edit_skills.html:12
+msgid "Update skills"
+msgstr "Zaktualizuj umiejętności"
+
+#: djangopeople/djangopeople/templates/form.html:3
+msgid "Please correct the errors below and submit the form again."
+msgstr "Proszę poprawić błędy wskazane poniżej i przesłać formularz ponownie."
+
+#: djangopeople/djangopeople/templates/index.html:22
+#, python-format
+msgid "Showing %(counter)s recent signups (out of %(total_people)s)"
+msgstr "Pokazujemy %(counter)s najnowsze konta (spośród %(total_people)s)"
+
+#: djangopeople/djangopeople/templates/index.html:22
+#, python-format
+msgid ""
+"if you're a Django developer, why not <a href=\"%(signup_url)s\">add "
+"yourself</a> to the site?"
+msgstr "Jeśli jesteś deweloperem Django, czemu nie <a href=\"%(signup_url)s\">dodasz się</a> do strony?"
+
+#: djangopeople/djangopeople/templates/irc_active.html:4
+#: djangopeople/djangopeople/templates/irc_active.html:7
+msgid "Active on IRC in the past hour"
+msgstr "Aktywny na IRC w ciągu ostatniej godziny"
+
+#: djangopeople/djangopeople/templates/irc_active.html:8
+msgid "No one is currently active"
+msgstr "W tej chwili nikt nie jest aktywny"
+
+#: djangopeople/djangopeople/templates/irc_active.html:26
+#, python-format
+msgid "<strong>%(nick)s</strong>, active %(since)s ago"
+msgstr "<strong>%(nick)s</strong>, aktywny %(since)s temu"
+
+#: djangopeople/djangopeople/templates/login.html:53
+msgid "Your login attempt failed."
+msgstr "Twoja próba logowania nie powiodła się."
+
+#: djangopeople/djangopeople/templates/login.html:61
+msgid "Lost your password?"
+msgstr "Nie pamiętasz swojego hasła?"
+
+#: djangopeople/djangopeople/templates/login.html:72
+msgid "Or sign in with your OpenID"
+msgstr "Albo zaloguj się korzystając z OpenID"
+
+#: djangopeople/djangopeople/templates/login.html:81
+msgid "OpenID not working?"
+msgstr "OpenID nie działa?"
+
+#: djangopeople/djangopeople/templates/login.html:84
+msgid "Log in with OpenID"
+msgstr "Zaloguj się korzystając z OpenID"
+
+#: djangopeople/djangopeople/templates/password_reset/recovery_done.html:3
+#: djangopeople/djangopeople/templates/password_reset/recovery_done.html:5
+msgid "New password set"
+msgstr "Ustawiono nowe hasło"
+
+#: djangopeople/djangopeople/templates/password_reset/recovery_done.html:9
+#, python-format
+msgid ""
+"Your password has successfully been reset. You can use it right now on the "
+"<a href=\"%(login_url)s\">login page</a>."
+msgstr "Twoje hasło zostało pomyślnie zresetowane. Możesz użyć je teraz na <a href=\"%(login_url)s\">stronie logowania</a>."
+
+#: djangopeople/djangopeople/templates/password_reset/recovery_form.html:3
+#: djangopeople/djangopeople/templates/password_reset/recovery_form.html:5
+#: djangopeople/djangopeople/templates/password_reset/reset.html:3
+#: djangopeople/djangopeople/templates/password_reset/reset.html:5
+msgid "Recover your account"
+msgstr "Odzyskaj swoje konto"
+
+#: djangopeople/djangopeople/templates/password_reset/recovery_form.html:9
+msgid ""
+"Enter your username and we'll send an account recovery link to the e-mail "
+"address associated with your account."
+msgstr "Wprowadź swoją nazwę użytkownika a wyślemy ci link do odzyskania konta na adres e-mail związany z twoim kontem."
+
+#: djangopeople/djangopeople/templates/password_reset/recovery_form.html:13
+msgid "Recover account"
+msgstr "Ozdyskaj konto"
+
+#: djangopeople/djangopeople/templates/password_reset/recovery_form.html:17
+#, python-format
+msgid ""
+"An email has just been sent to <strong>%(email)s</strong>. Use the link in "
+"it to set a new password."
+msgstr "E-mail został właśnie wysłany na adres <strong>%(email)s</strong>. Użyj zawartego w nim linku, aby ustawić nowe hasło."
+
+#: djangopeople/djangopeople/templates/password_reset/reset.html:9
+#, python-format
+msgid ""
+"Sorry, this password reset link is invalid. You can still <a "
+"href=\"%(recovery_url)s\">request a new one</a>."
+msgstr "Przepraszamy, ten link do resetu hasła jest niepoprawny. Możesz jednak <a href=\"%(recovery_url)s\">poprosić o nowy</a>."
+
+#: djangopeople/djangopeople/templates/password_reset/reset.html:11
+#, python-format
+msgid "Hi, <strong>%(username)s</strong>. Please choose your new password."
+msgstr "Cześć, <strong>%(username)s</strong>. Prosimy wybierz swoje nowe hasło."
+
+#: djangopeople/djangopeople/templates/password_reset/reset.html:14
+msgid "Set new password"
+msgstr "Ustaw nowe hasło"
+
+#: djangopeople/djangopeople/templates/profile.html:42
+msgid "(change)"
+msgstr "(zmień)"
+
+#: djangopeople/djangopeople/templates/profile.html:56
+msgid "(edit bio)"
+msgstr "(edytuj biografię)"
+
+#: djangopeople/djangopeople/templates/profile.html:56
+msgid "Create your bio"
+msgstr "Utwórz swoją biografię"
+
+#: djangopeople/djangopeople/templates/profile.html:63
+msgid "(edit skills)"
+msgstr "(edytuj umiejętności)"
+
+#: djangopeople/djangopeople/templates/profile.html:68
+msgid "Save"
+msgstr "Zapisz"
+
+#: djangopeople/djangopeople/templates/profile.html:71
+#, python-format
+msgid "Looking for <strong>%(type)s</strong> work"
+msgstr "Szuka pracy w <strong>%(type)s</strong>"
+
+#: djangopeople/djangopeople/templates/profile.html:76
+#, python-format
+msgid "Finding %(name)s"
+msgstr "Gdzie jest %(name)s"
+
+#: djangopeople/djangopeople/templates/profile.html:76
+#: djangopeople/djangopeople/templates/profile.html:99
+msgid "(edit)"
+msgstr "(edytuj)"
+
+#: djangopeople/djangopeople/templates/profile.html:78
+msgid "email:"
+msgstr "email:"
+
+#: djangopeople/djangopeople/templates/profile.html:81
+msgid "blog:"
+msgstr "blog:"
+
+#: djangopeople/djangopeople/templates/profile.html:85
+#, python-format
+msgid "(active %(since)s ago)"
+msgstr "(ostatnio %(since)s temu)"
+
+#: djangopeople/djangopeople/templates/profile.html:99
+#, python-format
+msgid "%(name)s's Django portfolio"
+msgstr "%(name)s, Django-portfolio"
+
+#: djangopeople/djangopeople/templates/profile.html:100
+#, python-format
+msgid "Django projects %(name)s has contributed to"
+msgstr "Projekty Django, w które wkład włożył(a) %(name)s"
+
+#: djangopeople/djangopeople/templates/profile.html:106
+#, python-format
+msgid "<a href=\"%(portfolio_url)s\">Add some sites</a> to your portfolio"
+msgstr "<a href=\"%(portfolio_url)s\">Dodaj kilka stron</a> do swojego portfolio"
+
+#: djangopeople/djangopeople/templates/profile.html:113
+#, python-format
+msgid "People near %(name)s"
+msgstr "Ludzie blisko %(name)s"
+
+#: djangopeople/djangopeople/templates/profile.html:120
+#, python-format
+msgid "%(counter)s mile away"
+msgid_plural "%(counter)s miles away"
+msgstr[0] "w odległości %(counter)s mili"
+msgstr[1] "w odległości %(counter)s mil"
+msgstr[2] "w odległości %(counter)s mil"
+
+#: djangopeople/djangopeople/templates/recent.html:4
+#: djangopeople/djangopeople/templates/recent.html:7
+msgid "Recent people"
+msgstr "Niedawni ludzie"
+
+#: djangopeople/djangopeople/templates/search.html:4
+#: djangopeople/djangopeople/templates/search.html:10
+#, python-format
+msgid "Search: %(q)s"
+msgstr "Szukaj: %(q)s"
+
+#: djangopeople/djangopeople/templates/search.html:4
+#: djangopeople/djangopeople/templates/search.html:10
+#: djangopeople/djangopeople/templates/search.html:13
+msgid "Search"
+msgstr "Szukaj"
+
+#: djangopeople/djangopeople/templates/search.html:11
+#, python-format
+msgid "%(counter)s result"
+msgid_plural "%(counter)s results"
+msgstr[0] "%(counter)s wynik"
+msgstr[1] "%(counter)s wyniki"
+msgstr[2] "%(counter)s wyników"
+
+#: djangopeople/djangopeople/templates/search.html:12
+msgid "Terms must be three or more characters"
+msgstr "Terminy muszą mieć trzy lub więcej znaków"
+
+#: djangopeople/djangopeople/templates/search.html:14
+msgid "This tool searches by username, first name and last name."
+msgstr "To narzędzie przeszukuje nazwy użytkownika, imiona i nazwiska."
+
+#: djangopeople/djangopeople/templates/search.html:28
+msgid "No users found."
+msgstr "Nie znaleziono żadnego użytkownika."
+
+#: djangopeople/djangopeople/templates/signup.html:4
+msgid "Sign up"
+msgstr "Zarejestruj się"
+
+#: djangopeople/djangopeople/templates/signup.html:9
+msgid "Sign up as a Django Person"
+msgstr "Zarejestruj się jako Django Person"
+
+#: djangopeople/djangopeople/templates/signup.html:24
+#, python-format
+msgid ""
+"Got an <strong class=\"openid\">OpenID</strong>? <a "
+"href=\"%(openid_url)s\">Sign up with your OpenID now!</a>"
+msgstr "Masz <strong class=\"openid\">OpenID</strong>? <a href=\"%(openid_url)s\">Zarejestruj się teraz swoim OpenID!</a>"
+
+#: djangopeople/djangopeople/templates/signup.html:26
+#, python-format
+msgid ""
+"Your new account will be associated with with your OpenID: <strong "
+"class=\"openid\">%(openid)s</strong> (<a "
+"href=\"%(openid_signout)s?next=%(signup_url)s\">don't associate</a>)"
+msgstr "Twoje nowe konto będzie powiązane z twoim OpenID: <strong class=\"openid\">%(openid)s</strong> (<a href=\"%(openid_signout)s?next=%(signup_url)s\">nie powiązuj</a>)"
+
+#: djangopeople/djangopeople/templates/signup.html:29
+msgid "1. Tell us who you are"
+msgstr "1. Powiedz nam kim jesteś"
+
+#: djangopeople/djangopeople/templates/signup.html:59
+msgid "2. Tell us where you live"
+msgstr "2. Powiedz nam skąd jesteś"
+
+#: djangopeople/djangopeople/templates/signup.html:63
+msgid ""
+"Latitude and longitude are missing. Please use the map to provide your "
+"location."
+msgstr "Brakuje współrzędnych. Prosimy użyj mapy, aby wskazać swoją lokalizację."
+
+#: djangopeople/djangopeople/templates/signup.html:93
+msgid "3. And a bit about you …"
+msgstr "3. A teraz trochę o tobie ..."
+
+#: djangopeople/djangopeople/templates/signup.html:126
+msgid "4. Your privacy settings"
+msgstr "4. Twoje ustawienia prywatności"
+
+#: djangopeople/djangopeople/templates/signup.html:145
+msgid "5. Your skills and interests"
+msgstr "5. Twoje umiejętności i zainteresowania"
+
+#: djangopeople/djangopeople/templates/signup.html:147
+msgid ""
+"Tag yourself with your particular skills and interests, e.g. postgresql, "
+"nginx, css. Separate them with commas; spaces are allowed."
+msgstr "Otaguj się swoimi szczególnymi umiejętnościami i zainteresowaniami, np. postgresql, nginx, css. Rozdziel je przecinkami; spacje są dozwolone."
+
+#: djangopeople/djangopeople/templates/signup.html:156
+msgid "Sign me up"
+msgstr "Zarejestruj mnie"
+
+#: djangopeople/djangopeople/templates/skill.html:8
+#, python-format
+msgid "%(counter)s Django Person mention this skill"
+msgid_plural "%(counter)s Django People mention this skill"
+msgstr[0] "%(counter)s osoba wzmienia tę umiejętność"
+msgstr[1] "%(counter)s osoby wzmieniają tę umiejętność"
+msgstr[2] "%(counter)s osób wzmienia tę umiejętność"
+
+#: djangopeople/djangopeople/templates/skills.html:4
+msgid "Skills"
+msgstr "Umiejętności"
+
+#: djangopeople/djangopeople/views.py:561
+#, python-format
+msgid "No Tag found matching \"%s\"."
+msgstr "Nie znaleziono tagu pasującego do \"%s\"."
+
+#: djangopeople/settings.py:41
+msgid "English"
+msgstr "angielski"
+
+#: djangopeople/settings.py:42
+msgid "Czech"
+msgstr "czeski"
+
+#: djangopeople/settings.py:43
+msgid "Russian"
+msgstr "rosyjski"
+
+#: djangopeople/settings.py:44
+msgid "French"
+msgstr "francuski"
+
+#: djangopeople/settings.py:45
+msgid "Spanish"
+msgstr "hiszpański"
+
+#: djangopeople/settings.py:46
+msgid "Hebrew"
+msgstr "hebrajski"
+
+#: djangopeople/settings.py:47
+msgid "Portuguese"
+msgstr "portugalski"
+
+#: djangopeople/settings.py:48
+msgid "Slovak"
+msgstr "słowacki"

@@ -1,0 +1,47 @@
+- name: install xvfb
+  become: yes
+  apt: pkg=xvfb
+
+- name: Install Xvfb systemd script
+  become: yes
+  copy: src=xvfb.service
+    dest=/etc/systemd/system/xvfb.service
+
+- name: Enable xvfb.service
+  become: yes
+  service: name=xvfb enabled=yes state=started
+
+- name: add Google Linux repo signing key
+  become: yes
+  apt_key: id=7FAC5991
+           url=https://dl-ssl.google.com/linux/linux_signing_key.pub
+           state=present
+
+- name: add Google Chrome repository
+  become: yes
+  apt_repository: repo='deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' state=present
+
+- name: install Google Chrome
+  become: yes
+  apt: pkg=google-chrome-stable
+
+- name: install unzip
+  become: yes
+  apt: name=unzip state=present
+
+- name: get chromedriver version
+  uri: url=https://chromedriver.storage.googleapis.com/LATEST_RELEASE return_content=yes
+  register: chromedriver_version_file
+
+- name: download chromedriver
+  become: yes
+  unarchive: src=https://chromedriver.storage.googleapis.com/{{ chromedriver_version_file.content|replace('\n','') }}/chromedriver_linux{{ ansible_userspace_bits }}.zip dest=/tmp copy=no
+
+- name: copy executable file for chromedriver
+  become: yes
+  copy: src=/tmp/chromedriver dest=/usr/local/bin/chromedriver mode=0755 remote_src=yes
+
+- name: export display to allow selenium to work
+  lineinfile:
+    dest: "{{ user_home }}.profile"
+    line: "export DISPLAY=:99"

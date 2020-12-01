@@ -1,0 +1,68 @@
+- name: install enchant (for spelling check)
+  become: yes
+  apt: pkg=enchant
+
+- name: add snake repo signing key
+  become: yes
+  apt_key: id=6A755776
+           url=http://keyserver.ubuntu.com:11371/pks/lookup?op=get&search=0xBA6932366A755776
+           state=present
+
+- name: add snake repository
+  become: yes
+  apt_repository: repo='ppa:deadsnakes/ppa' state=present
+
+- name: install Python
+  become: yes
+  apt: pkg=python{{ item }}
+  with_items: '{{ python_versions }}'
+
+- name: install Python development libraries
+  become: yes
+  apt: pkg=python{{ item }}-dev
+  with_items: '{{ python_versions }}'
+
+- name: install setuptools
+  become: yes
+  apt: pkg=python-setuptools
+
+- name: install pip
+  become: yes
+  apt: pkg=python3-pip
+
+- name: install extra packages required by Python dependencies
+  become: yes
+  apt: pkg={{ item }}
+  with_items:
+    - libffi-dev   # for bcrypt
+    - libjpeg-dev  # for Pillow
+    - zlib1g-dev   # for Pillow
+    - git          # Tox executes git config
+    - libmemcached-dev  # for pylibmc
+
+- name: install tox for running build tasks
+  pip: name=tox==2.9.1 executable=pip3
+  become: yes
+
+- name: install sphinx for building docs
+  pip: name=Sphinx executable=pip3
+  become: yes
+
+- name: create aliases for executing tests on regular and GIS database backends
+  lineinfile:
+    dest: "{{ user_home}}.profile"
+    line: >
+        alias runtests{{ item.0|replace('.', '') }}-{{ item.1["jenkins_runner"] }}='PYTHONPATH=/home/vagrant/djangodata/
+        tox -c /django/tox.ini -e py{{ item.0|replace(".", "") }}{{ item.1["tox_env_factor"] }} --
+        --settings=test_{{ item.1["jenkins_runner"] }}'
+  with_nested:
+    - '{{ python_versions }}'
+    - '{{ database_config }}'
+
+- name: create aliases for non database tests
+  lineinfile:
+    dest: "{{ user_home}}.profile"
+    line: >
+        alias runtests-{{ item }}='PYTHONPATH=/home/vagrant/djangodata/
+        tox -c /django/tox.ini -e {{ item }} --'
+  with_items: [ 'flake8', 'isort', 'docs' ]

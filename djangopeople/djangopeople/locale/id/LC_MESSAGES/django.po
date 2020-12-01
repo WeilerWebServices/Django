@@ -1,0 +1,1167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Fery Setiawan <gembelweb@gmail.com>, 2015-2016
+# rodin <romihardiyanto@gmail.com>, 2012
+# Sutrisno Efendi <kangfend@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Django People\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-10 08:03+0000\n"
+"PO-Revision-Date: 2016-08-23 04:43+0000\n"
+"Last-Translator: Fery Setiawan <gembelweb@gmail.com>\n"
+"Language-Team: Indonesian (http://www.transifex.com/django/djangopeople/language/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: default_settings.py:40
+msgid "English"
+msgstr "Bahasa Inggris"
+
+#: django_openidauth/models.py:8 djangopeople/models.py:123
+msgid "User"
+msgstr "Pengguna"
+
+#: django_openidauth/models.py:9
+#: django_openidconsumer/templates/openid_failure.html:27
+#: django_openidconsumer/templates/openid_signin.html:25
+#: djangopeople/templates/login.html:75
+msgid "OpenID"
+msgstr "OpenID"
+
+#: django_openidauth/models.py:10
+msgid "Creation date"
+msgstr "Tanggal dibuat"
+
+#: django_openidauth/views.py:69 django_openidauth/views.py:88
+#, python-format
+msgid "%s has been associated with your account"
+msgstr "%s telah dikaitkan dengan akun Anda"
+
+#: django_openidauth/views.py:74 django_openidauth/views.py:93
+#, python-format
+msgid ""
+"%s could not be associated with your account, as it is already associated "
+"with a different account"
+msgstr "%s tidak dapat dikaitkan dengan akun Anda karena telah dikaitkan dengan akun lainnya"
+
+#: django_openidauth/views.py:105
+msgid "You need to set a password if you want to remove all of your OpenIDs"
+msgstr "Anda harus membuat sandi jika ingin menghapus semua OpenID"
+
+#: django_openidauth/views.py:111
+#, python-format
+msgid "%s has been removed from your account"
+msgstr "%s telah dihapus dari akun Anda"
+
+#: django_openidauth/templates/openid_associations.html:2
+#: django_openidauth/templates/openid_associations.html:19
+msgid "OpenID associations"
+msgstr "OpenID terkait"
+
+#: django_openidauth/templates/openid_associations.html:32
+msgid "Your account is currently associated with the following OpenID:"
+msgid_plural ""
+"Your account is currently associated with the following OpenIDs:"
+msgstr[0] "Akun Anda terkait dengan OpenID berikut:"
+
+#: django_openidauth/templates/openid_associations.html:35
+msgid "Remove association"
+msgstr "Hapus kaitan"
+
+#: django_openidauth/templates/openid_associations.html:41
+msgid ""
+"You are currently logged in with the following OpenID. Click \"associate\" "
+"to allow it to be used to sign in to your account."
+msgid_plural ""
+"You are currently logged with the following OpenIDs. Click \"associate\" to "
+"allow an OpenID to be used to sign in to your account."
+msgstr[0] "Anda sedang masuk dengan OpenID berikut. Klik \"kaitkan\" agar dapat menggunakan OpenID berikut untuk masuk ke akun Anda."
+
+#: django_openidauth/templates/openid_associations.html:44
+msgid "Associate"
+msgstr "Kaitkan"
+
+#: django_openidauth/templates/openid_associations.html:50
+msgid "To associate a new OpenID with this account, sign in with it here:"
+msgstr "Untuk mengaitkan OpenID baru dengan akun ini, masuk lewat OpenID di sini:"
+
+#: django_openidauth/templates/openid_associations.html:55
+msgid "Authenticate and associate with this account"
+msgstr "Autentikasikan dan kaitkan dengan akun ini"
+
+#: django_openidconsumer/views.py:89
+msgid "i-names are not supported"
+msgstr "i-names tidak didukung"
+
+#: django_openidconsumer/views.py:95
+msgid "The OpenID was invalid"
+msgstr "OpenID tersebut tidak valid"
+
+#: django_openidconsumer/views.py:121
+msgid "The request was cancelled"
+msgstr "Permintaan dibatalkan"
+
+#: django_openidconsumer/views.py:125
+msgid "Setup needed"
+msgstr "Dibutuhkan penyetelan"
+
+#: django_openidconsumer/templates/openid_failure.html:3
+msgid "Open ID failed, Sign in with your OpenID"
+msgstr "Open ID gagal, masuk dengan OpenID Anda"
+
+#: django_openidconsumer/templates/openid_failure.html:19
+#: django_openidconsumer/templates/openid_signin.html:3
+#: django_openidconsumer/templates/openid_signin.html:19
+msgid "Sign in with your OpenID"
+msgstr "Masuk dengan OpenID"
+
+#: django_openidconsumer/templates/openid_failure.html:23
+msgid "OpenID failed"
+msgstr "OpenID gagal"
+
+#: django_openidconsumer/templates/openid_failure.html:31
+#: django_openidconsumer/templates/openid_signin.html:29
+msgid "Sign in"
+msgstr "Masuk"
+
+#: djangopeople/constants.py:28
+msgid "#django IRC"
+msgstr "IRC #django"
+
+#: djangopeople/forms.py:49
+msgid "Drag and zoom the map until the crosshair matches your location"
+msgstr "Seret dan perbesar peta agar tanda silang cocok dengan lokasi Anda"
+
+#: djangopeople/forms.py:112 djangopeople/templates/base.html:41
+msgid "Username"
+msgstr "Nama pengguna"
+
+#: djangopeople/forms.py:114 djangopeople/forms.py:350
+msgid "First name"
+msgstr "Nama depan"
+
+#: djangopeople/forms.py:115 djangopeople/forms.py:351
+msgid "Last name"
+msgstr "Nama belakang"
+
+#: djangopeople/forms.py:116 djangopeople/forms.py:352
+msgid "E-mail"
+msgstr "Email"
+
+#: djangopeople/forms.py:117 djangopeople/forms.py:540
+#: djangopeople/templates/base.html:41
+msgid "Password"
+msgstr "Sandi"
+
+#: djangopeople/forms.py:119
+msgid "Password (again)"
+msgstr "Sandi (ulangi)"
+
+#: djangopeople/forms.py:123 djangopeople/models.py:124
+msgid "Bio"
+msgstr "Bio"
+
+#: djangopeople/forms.py:125 djangopeople/forms.py:353
+#: djangopeople/templates/edit_finding.html:34
+msgid "Blog URL"
+msgstr "URL Blog"
+
+#: djangopeople/forms.py:127 djangopeople/forms.py:267
+#: djangopeople/models.py:74 djangopeople/models.py:88
+#: djangopeople/models.py:127 djangopeople/models.py:252
+#: djangopeople/templates/edit_location.html:44
+msgid "Country"
+msgstr "Negara"
+
+#: djangopeople/forms.py:130 djangopeople/forms.py:271
+#: djangopeople/models.py:132
+msgid "Location"
+msgstr "Lokasi"
+
+#: djangopeople/forms.py:132 djangopeople/forms.py:268
+#: djangopeople/models.py:107 djangopeople/models.py:128
+#: djangopeople/templates/edit_location.html:59
+msgid "Region"
+msgstr "Wilayah"
+
+#: djangopeople/forms.py:135 djangopeople/forms.py:355
+#: djangopeople/templates/edit_finding.html:71
+msgid "Search visibility"
+msgstr "Visibilitas pencarian"
+
+#: djangopeople/forms.py:143 djangopeople/forms.py:363
+#: djangopeople/templates/edit_finding.html:76
+msgid "E-mail privacy"
+msgstr "Privasi email"
+
+#: djangopeople/forms.py:151 djangopeople/forms.py:371
+#: djangopeople/templates/edit_finding.html:81
+msgid "IM privacy"
+msgstr "Privasi IM"
+
+#: djangopeople/forms.py:158 djangopeople/forms.py:378
+#: djangopeople/templates/edit_finding.html:86
+msgid "IRC tracking"
+msgstr "Pelacakan IRC"
+
+#: djangopeople/forms.py:166 djangopeople/forms.py:386
+#: djangopeople/templates/edit_finding.html:39
+msgid "Looking for work?"
+msgstr "Mencari pekerjaan?"
+
+#: djangopeople/forms.py:174
+msgid "Your skills"
+msgstr "Keterampilan Anda"
+
+#: djangopeople/forms.py:182
+msgid "Password is required"
+msgstr "Dibutuhkan sandi"
+
+#: djangopeople/forms.py:189
+msgid "Passwords must match"
+msgstr "Sandi harus sama persis"
+
+#: djangopeople/forms.py:193
+msgid "That username is unavailable"
+msgstr "Nama pengguna tersebut tidak tersedia"
+
+#: djangopeople/forms.py:217 djangopeople/forms.py:399
+msgid "That e-mail is already in use"
+msgstr "Email tersebut sudah digunakan"
+
+#: djangopeople/forms.py:230 djangopeople/forms.py:300
+msgid "The region you selected does not match the country"
+msgstr "Wilayah yang dipilih tidak cocok dengan negaranya"
+
+#: djangopeople/forms.py:238
+msgid "Change skills"
+msgstr "Ganti keterampilan"
+
+#: djangopeople/forms.py:286
+msgid "The ISO code of the country you selected is invalid."
+msgstr "Kode ISO negara yang Anda pilih tidak valid."
+
+#: djangopeople/forms.py:439
+#, python-format
+msgid "URL %d"
+msgstr "URL %d"
+
+#: djangopeople/forms.py:442
+#, python-format
+msgid "Title %d"
+msgstr "Judul %d"
+
+#: djangopeople/forms.py:472
+msgid "You need to provide a URL"
+msgstr "URL wajib diisi"
+
+#: djangopeople/forms.py:478
+msgid "Current Password"
+msgstr "Sandi saat ini"
+
+#: djangopeople/forms.py:480
+msgid "New Password"
+msgstr "Sandi baru"
+
+#: djangopeople/forms.py:481
+msgid "New Password (again)"
+msgstr "Ulangi sandi baru"
+
+#: djangopeople/forms.py:493
+msgid "Please submit your current password."
+msgstr "Kirimkan sandi Anda saat ini"
+
+#: djangopeople/forms.py:504
+msgid "The passwords did not match."
+msgstr "Sandinya tidak cocok"
+
+#: djangopeople/forms.py:545
+msgid "Your password was invalid"
+msgstr "Sandi Anda salah"
+
+#: djangopeople/groupedselect.py:81
+msgid ""
+"Select a valid choice. That choice is not one of the available choices."
+msgstr "Pilih opsi yang valid. Opsi tersebut tidak tersedia."
+
+#: djangopeople/models.py:40 djangopeople/models.py:87
+msgid "Name"
+msgstr "Nama"
+
+#: djangopeople/models.py:41
+msgid "ISO code"
+msgstr "Kode ISO"
+
+#: djangopeople/models.py:42
+msgid "ISO numeric code"
+msgstr "Kode numerik ISO"
+
+#: djangopeople/models.py:44
+msgid "ISO alpha-3"
+msgstr "ISO alpha-3"
+
+#: djangopeople/models.py:45
+msgid "FIPS code"
+msgstr "Kode FIPS"
+
+#: djangopeople/models.py:46
+msgid "Continent"
+msgstr "Benua"
+
+#: djangopeople/models.py:48
+msgid "Capital"
+msgstr "Ibu Kota"
+
+#: djangopeople/models.py:49
+msgid "Area in square kilometers"
+msgstr "Luas dalam kilometer persegi"
+
+#: djangopeople/models.py:50
+msgid "Population"
+msgstr "Populasi"
+
+#: djangopeople/models.py:51
+msgid "Currency code"
+msgstr "Kode mata uang"
+
+#: djangopeople/models.py:53
+msgid "Languages"
+msgstr "Bahasa"
+
+#: djangopeople/models.py:54
+msgid "Geonames ID"
+msgstr "ID Geonames"
+
+#: djangopeople/models.py:63 djangopeople/models.py:96
+msgid "Number of people"
+msgstr "Jumlah penduduk"
+
+#: djangopeople/models.py:75
+msgid "Countries"
+msgstr "Negara"
+
+#: djangopeople/models.py:86
+msgid "Code"
+msgstr "Kode"
+
+#: djangopeople/models.py:89
+msgid "Flag"
+msgstr "Bendera"
+
+#: djangopeople/models.py:108 djangopeople/templates/country.html:86
+msgid "Regions"
+msgstr "Wilayah"
+
+#: djangopeople/models.py:130 djangopeople/templates/edit_location.html:49
+msgid "Latitude"
+msgstr "Lintang"
+
+#: djangopeople/models.py:131 djangopeople/templates/edit_location.html:54
+msgid "Longitude"
+msgstr "Bujur"
+
+#: djangopeople/models.py:138
+msgid "Profile views"
+msgstr "Tampilan profil"
+
+#: djangopeople/models.py:145
+msgid "OpenID server"
+msgstr "Server OpenID"
+
+#: djangopeople/models.py:147
+msgid "OpenID delegate"
+msgstr "Delegasi OpenID"
+
+#: djangopeople/models.py:151
+msgid "Last active on IRC"
+msgstr "Terakhir aktif di IRC"
+
+#: djangopeople/models.py:159
+msgid "<none>"
+msgstr "<tidak ada>"
+
+#: djangopeople/models.py:220
+msgid "Django person"
+msgstr "Seseorang Django"
+
+#: djangopeople/models.py:221
+msgid "Django people"
+msgstr "Orang Django"
+
+#: djangopeople/models.py:235 djangopeople/models.py:250
+msgid "Title"
+msgstr "Judul"
+
+#: djangopeople/models.py:236 djangopeople/models.py:251
+msgid "URL"
+msgstr "URL"
+
+#: djangopeople/models.py:238
+msgid "Contributor"
+msgstr "Kontributor"
+
+#: djangopeople/models.py:244
+msgid "Portfolio site"
+msgstr "Situs portofolio"
+
+#: djangopeople/models.py:245
+msgid "Portfolio sites"
+msgstr "Situs portofolio"
+
+#: djangopeople/models.py:258
+msgid "Country site"
+msgstr "Situs Negara"
+
+#: djangopeople/models.py:259
+msgid "Country sites"
+msgstr "Situs Negara"
+
+#: djangopeople/views.py:553
+#, python-format
+msgid "No Tag found matching \"%s\"."
+msgstr "Tidak ada tag yang cocok untuk \"%s\"."
+
+#: djangopeople/templates/404.html:3 djangopeople/templates/404.html.py:9
+msgid "404 error"
+msgstr "Galat 404"
+
+#: djangopeople/templates/404.html:13
+msgid "Page not found."
+msgstr "Laman tidak ditemukan."
+
+#: djangopeople/templates/500.html:3 djangopeople/templates/500.html.py:9
+msgid "500 error"
+msgstr "Galat 500"
+
+#: djangopeople/templates/500.html:13
+msgid ""
+"Internal server error. This has been reported to the site administrator."
+msgstr "Galat server internal. Galat ini telah dilaporkan ke administrator situs."
+
+#: djangopeople/templates/about.html:4
+msgid "About"
+msgstr "Tentang"
+
+#: djangopeople/templates/about.html:9
+msgid "About Django People"
+msgstr "Tentang Orang Django"
+
+#: djangopeople/templates/about.html:14
+#, python-format
+msgid ""
+"Django People lists %(count)s <a "
+"href=\"https://www.djangoproject.com/\">Django</a> developers from around "
+"the world, in %(countries)s different countries. The aim of the site is to "
+"help Django developers find like-minded souls near them, and hopefully kick-"
+"start some local meet-ups and user groups."
+msgstr "Daftar pengembang Orang Django %(count)s<a href=\"https://www.djangoproject.com/\">Django</a> dari seluruh dunia, di %(countries)snegara berbeda. Tujuan dari situs ini adalah membantu pengembang Django menemukan jiwa sepaham dekat mereka, dan berharap memulai beberapa pertemuan lokal dan kelompok pengguna. "
+
+#: djangopeople/templates/about.html:16
+msgid ""
+"The site was originally built and open-sourced by <a href=\"/simon/\">Simon "
+"Willison</a> and <a href=\"/natbat/\">Natalie Downe</a>. The code is <a "
+"href=\"https://github.com/brutasse/djangopeople\">available on github</a>, "
+"you can post feedback and bug reports on the repository's <a "
+"href=\"https://github.com/brutasse/djangopeople/issues\">issues page</a>."
+msgstr "Situs aslinya dibangun dan di sumber terbukakan oleh <a href=\"/simon/\">Simon Willison</a> and <a href=\"/natbat/\">Natalie Downe</a>. Kode itu <a href=\"https://github.com/brutasse/djangopeople\">tersedia di github</a>, anda dapat menempatkan umpan balik dan laporan kesalahan pada <a href=\"https://github.com/brutasse/djangopeople/issues\">halaman masalah</a> gudang"
+
+#: djangopeople/templates/about.html:18
+msgid "Colophon"
+msgstr "Colophon"
+
+#: djangopeople/templates/about.html:20
+msgid ""
+"Country data and location lookups come from <a "
+"href=\"http://www.geonames.org/\">GeoNames</a>, while the maps themselves "
+"are powered by the <a href=\"https://developers.google.com/maps/\">Google "
+"Maps API</a>. Country flags and icons are by <a "
+"href=\"http://famfamfam.com/lab/icons/\">Mark James</a>; US state flags come"
+" <a href=\"http://en.wikipedia.org/wiki/Flags_of_the_U.S._states\" "
+"title=\"Flags of the U.S. states\">from Wikipedia</a>. Profile pictures come"
+" from <a href=\"http://en.gravatar.com/\">Gravatar</a>."
+msgstr "Pencarian Data negara dan tempat datang dari <a href=\"http://www.geonames.org/\">GeoNames</a>, selagi peta mereka sendiri ditenagai oleh <a href=\"https://developers.google.com/maps/\">Google Maps API</a>. Bendera negara dan ikon oleh <a href=\"http://famfamfam.com/lab/icons/\">Mark James</a>; bendera Amerika Serikat datang <a href=\"http://en.wikipedia.org/wiki/Flags_of_the_U.S._states\" title=\"Flags of the U.S. states\">dari Wikipedia</a>. Gambar profil datang dari <a href=\"http://en.gravatar.com/\">Gravatar</a>."
+
+#: djangopeople/templates/about.html:22
+#, python-format
+msgid ""
+"The site uses <a href=\"http://code.google.com/p/django-tagging/\">django-"
+"tagging</a> by <a href=\"/insin/\">Jonathan Buchanan</a> for the <a "
+"href=\"/skills/\">skills feature</a>. <a "
+"href=\"http://simonwillison.net/2008/Jan/24/upgrade/\" title=\"Django "
+"People: OpenID and microformats\">OpenID support</a> (used by "
+"%(openid_users)s people) depends on <a href=\"http://openidenabled.com"
+"/python-openid/\">python-openid</a> (version 2.2.5)  and <a "
+"href=\"http://code.google.com/p/django-openid/\">django-openid</a>."
+msgstr "Situs menggunakan <a href=\"http://code.google.com/p/django-tagging/\">penandaan-django</a> oleh <a href=\"/insin/\">Jonathan Buchanan</a> untuk <a href=\"/skills/\">fitur keahlian</a>. <a href=\"http://simonwillison.net/2008/Jan/24/upgrade/\" title=\"Django People: OpenID and microformats\">mendukung OpenID</a> (digunakan oleh orang %(openid_users)s) tergantung pada <a href=\"http://openidenabled.com/python-openid/\">openid python</a> (version 2.2.5) dan <a href=\"http://code.google.com/p/django-openid/\">openid django</a>."
+
+#: djangopeople/templates/about.html:24
+msgid ""
+"Deployment is <a href=\"http://gunicorn.org\">gunicorn</a>, hosted on <a "
+"href=\"http://www.heroku.com/\">Heroku</a>."
+msgstr "Penyebaran adalah <a href=\"http://gunicorn.org\">gunicorn</a>, disimpan di <a href=\"http://www.heroku.com/\">Heroku</a>."
+
+#: djangopeople/templates/about.html:26
+msgid "A Django joint."
+msgstr "Gabungan Django"
+
+#: djangopeople/templates/base.html:24
+msgid "home"
+msgstr "rumah"
+
+#: djangopeople/templates/base.html:25
+msgid "about"
+msgstr "tentang"
+
+#: djangopeople/templates/base.html:26
+msgid "search"
+msgstr "cari"
+
+#: djangopeople/templates/base.html:30
+msgid "sign up as a django person"
+msgstr "masuk sebagai orang django"
+
+#: djangopeople/templates/base.html:33
+#, python-format
+msgid "You are logged in as <strong>%(user)s</strong>"
+msgstr "Anda masuk sebagai <strong>%(user)s</strong>"
+
+#: djangopeople/templates/base.html:34
+msgid "your profile"
+msgstr "profil Anda"
+
+#: djangopeople/templates/base.html:35
+msgid "your account"
+msgstr "akun Anda"
+
+#: djangopeople/templates/base.html:36
+msgid "log out"
+msgstr "keluar"
+
+#: djangopeople/templates/base.html:41 djangopeople/templates/login.html:4
+#: djangopeople/templates/login.html:43 djangopeople/templates/login.html:65
+msgid "Log in"
+msgstr "Masuk"
+
+#: djangopeople/templates/base.html:43
+#, python-format
+msgid "Or <a href=\"%(openid_url)s\">log in with <strong>OpenID</strong>"
+msgstr "Atau <a href=\"%(openid_url)s\">masuk dengan <strong>OpenID</strong>"
+
+#: djangopeople/templates/base.html:49
+msgid "Django People"
+msgstr "Masyarakat Django"
+
+#: djangopeople/templates/base.html:50
+msgid ""
+"Discover users of the <a href=\"https://www.djangoproject.com/\">Django Web "
+"framework</a> near you"
+msgstr "Temukan pengguna dari <a href=\"https://www.djangoproject.com/\">Kerangka jaringan Django</a> dekat anda"
+
+#: djangopeople/templates/base.html:61
+msgid "Hosted on <span class=\"heroku\">Heroku</span>"
+msgstr "Disimpan di <span class=\"heroku\">Heroku</span>"
+
+#: djangopeople/templates/country.html:36
+#: djangopeople/templates/country.html:38
+#, python-format
+msgid "%(counter)s Django person"
+msgid_plural "%(counter)s Django people"
+msgstr[0] "%(counter)s Orang Django"
+
+#: djangopeople/templates/country.html:53
+#, python-format
+msgid "Django community sites in %(country)s"
+msgstr "Situs komunitas django di %(country)s"
+
+#: djangopeople/templates/country.html:64
+#, python-format
+msgid "Page %(num)s of %(total)s"
+msgstr "Halaman %(num)s dari %(total)s"
+
+#: djangopeople/templates/country.html:90 djangopeople/templates/index.html:46
+#: djangopeople/templates/irc_active.html:8
+#: djangopeople/templates/skills.html:23
+#, python-format
+msgid "%(counter)s person"
+msgid_plural "%(counter)s people"
+msgstr[0] "%(counter)s orang"
+
+#: djangopeople/templates/country_looking_for.html:3
+#, python-format
+msgid "People in %(country)s looking for %(looking_for)s"
+msgstr "Masyarakat di %(country)s mencari %(looking_for)s"
+
+#: djangopeople/templates/country_looking_for.html:9
+#, python-format
+msgid "%(country)s, seeking %(looking_for)s work"
+msgstr "%(country)s, mencari %(looking_for)s pekerjaan"
+
+#: djangopeople/templates/country_sites.html:4
+#: djangopeople/templates/country_sites.html:10
+#, python-format
+msgid "Sites in %(country)s"
+msgstr "Situs di %(country)s"
+
+#: djangopeople/templates/country_sites.html:19
+#, python-format
+msgid "<a href=\"%(url)s\">%(title)s</a> by <a href=\"%(author_url)s\">%(author)s</a>"
+msgstr "<a href=\"%(url)s\">%(title)s</a> oleh <a href=\"%(author_url)s\">%(author)s</a>"
+
+#: djangopeople/templates/delete_account.html:4
+msgid ""
+"Please enter your password to confirm your ownership of this account. You "
+"account removal will be effective immediately and permanently after you "
+"submit this form."
+msgstr "Masukkan sandi Anda untuk membuktikan kepemilikan atas akun ini. Penghapusan akun akan segera berlaku secara permanen saat Anda mengirimkan formulir ini."
+
+#: djangopeople/templates/delete_account.html:7
+msgid "Delete my account"
+msgstr "Hapus akun saya"
+
+#: djangopeople/templates/delete_account.txt:1
+#, python-format
+msgid "Dear %(name)s,"
+msgstr "Halo %(name)s"
+
+#: djangopeople/templates/delete_account.txt:3
+#, python-format
+msgid ""
+"It seems you're willing to delete your account from %(domain)s. You can "
+"delete your account by following the instructions on the link below:"
+msgstr "Kelihatannya anda akan menghapus akun anda dari %(domain)s. Anda dapat menghapus akun anda dengan perintah berikut di tautan dibawah ini:"
+
+#: djangopeople/templates/delete_account.txt:7
+msgid "For security reasons, this link will stay valid for only 5 minutes."
+msgstr "Untuk alasan keamanan, tautan ini hanya berlaku dalam waktu 5 menit saja."
+
+#: djangopeople/templates/delete_account_done.html:3
+msgid "Account deleted"
+msgstr "Akun dihapus"
+
+#: djangopeople/templates/delete_account_done.html:6
+msgid "It's sad to see you go, but your account was successfully deleted."
+msgstr "Sangat sedih melihat anda pergi, tetapi akun anda berhasil dihapus."
+
+#: djangopeople/templates/delete_account_next.html:4
+msgid ""
+"Check your email! An email was just sent to you, follow the link in it to "
+"finalize your account deletion."
+msgstr "Periksa email anda! Sebuah email dikirim ke anda, ikuti tautan didalamnya untuk mengakhiri penghapusan akun anda."
+
+#: djangopeople/templates/delete_account_request.html:3
+#: djangopeople/templates/delete_account_request.html:5
+msgid "Account deletion"
+msgstr "Penghapusan akun"
+
+#: djangopeople/templates/delete_account_request.html:8
+msgid ""
+"You are about to request complete removal of your account and data from this"
+" site. This will be done using the following process:"
+msgstr "Anda sedang meminta pemindahan seluruhnya akun anda dan data dari situs ini. Ini akan dilakukan menggunakan pengolahan berikut:"
+
+#: djangopeople/templates/delete_account_request.html:10
+msgid ""
+"When you submit the following form, you will receive an email with a private"
+" link."
+msgstr "Ketika anda mengajukan formulir berikut, anda akan menerima email dengan tautan pribadi."
+
+#: djangopeople/templates/delete_account_request.html:11
+msgid ""
+"This link (valid for 5 minutes only) will take you to a page where you can "
+"enter your password to actually delete your account."
+msgstr "Tautan ini (sah hanya 5 menit) akan membawa anda ke halaman dimana anda dapat memasukkan sandi anda untuk benar-benar menghapus akun anda."
+
+#: djangopeople/templates/delete_account_request.html:13
+msgid "If you are ready to proceed, submit the form below."
+msgstr "Jika anda sudah siap melanjutkan, ajukan formulir dibawah ini."
+
+#: djangopeople/templates/delete_account_request.html:16
+msgid "Request account deletion"
+msgstr "Permintaan penghapusan akun"
+
+#: djangopeople/templates/delete_account_subject.txt:1
+#, python-format
+msgid "Account deletion on %(domain)s"
+msgstr "Penghapusan akun di %(domain)s"
+
+#: djangopeople/templates/edit_account.html:3
+#: djangopeople/templates/edit_account.html:11
+msgid "Account settings"
+msgstr "Pengaturan akun"
+
+#: djangopeople/templates/edit_account.html:16
+#: djangopeople/templates/edit_location.html:4
+#: djangopeople/templates/edit_location.html:18
+msgid "Change your location"
+msgstr "Rubah tempat anda"
+
+#: djangopeople/templates/edit_account.html:17
+msgid "Update your contact details"
+msgstr "Perbarui detail kontak Anda"
+
+#: djangopeople/templates/edit_account.html:18
+msgid "Change your privacy settings"
+msgstr "Rubah pengaturan pribadi anda"
+
+#: djangopeople/templates/edit_account.html:19
+msgid "Add sites to your portfolio"
+msgstr "Tambah situs ke portofolio"
+
+#: djangopeople/templates/edit_account.html:20
+#: djangopeople/templates/edit_password.html:3
+#: djangopeople/templates/edit_password.html:11
+msgid "Change your password"
+msgstr "Rubah sandi anda"
+
+#: djangopeople/templates/edit_account.html:20
+#, python-format
+msgid ""
+"You do not have a password set - <a href=\"%(password_url)s\">set one "
+"now?</a>"
+msgstr "Anda tidak mempunyai sandi - <a href=\"%(password_url)s\">setel satu sekarang?</a>"
+
+#: djangopeople/templates/edit_account.html:21
+msgid "Delete your account"
+msgstr "Hapus akun Anda"
+
+#: djangopeople/templates/edit_account.html:27
+#, python-format
+msgid ""
+"You have %(counter)s OpenID associated with your account. <a "
+"href=\"%(openid_url)s\">Manage your OpenID</a>"
+msgid_plural ""
+"You have %(counter)s OpenIDs associated with your account. <a "
+"href=\"%(openid_url)s\">Manage your OpenIDs</a>"
+msgstr[0] "Anda mempunyai %(counter)s OpenID terhubung dengan akun anda. <a href=\"%(openid_url)s\">Kelola OpenID anda</a>"
+
+#: djangopeople/templates/edit_account.html:30
+#, python-format
+msgid ""
+"If you have an <a href=\"http://openid.net/\">OpenID</a>, you can <a "
+"href=\"%(openid_url)s\">associate it with your account</a>. This will allow "
+"you to log in using your OpenID instead of your password."
+msgstr "Jika anda mempunyai sebuah <a href=\"http://openid.net/\">OpenID</a>, anda dapat <a href=\"%(openid_url)s\">menghubungkannya dengan akun anda</a>. Ini akan mengizinkan anda masuk menggunakan OpenID dari pada sandi anda."
+
+#: djangopeople/templates/edit_account.html:34
+msgid "Advanced: Use your profile page as an OpenID"
+msgstr "Lanjutan: Gunakan halaman profil anda sebagai sebuah OpenID"
+
+#: djangopeople/templates/edit_account.html:37
+msgid ""
+"If you already have an OpenID, you can configure your Django People profile "
+"page to delegate to it. This means you'll be able to use your profile page "
+"as an OpenID, without having to sign in to Django People first."
+msgstr "Jika anda sudah mempunyai OpenID, anda dapat mengkonfigurasi halaman profil Orang Django untuk mengutus ke dia. Ini berarti anda akan dapat menggunakan halaman profil anda sebagai OpenID, tanpa perlu masuk ke Orang Django terlebih dahulu."
+
+#: djangopeople/templates/edit_account.html:40
+msgid ""
+"Read <a href=\"http://simonwillison.net/2006/Dec/19/openid/\">more about "
+"delegation</a> to learn how to use this form."
+msgstr "Baca <a href=\"http://simonwillison.net/2006/Dec/19/openid/\">lebih tentang pengutusan</a> untuk belajar bagaimana menggunakan formulir ini. "
+
+#: djangopeople/templates/edit_account.html:45
+msgid "Update OpenID delegation"
+msgstr "Perbaharui perwakilan OpenID"
+
+#: djangopeople/templates/edit_bio.html:3
+#: djangopeople/templates/edit_bio.html:9
+msgid "Edit your bio"
+msgstr "Sunting bio"
+
+#: djangopeople/templates/edit_bio.html:14
+msgid ""
+"No HTML allowed, but paragraph tags will be added automatically and URLs "
+"will be turned in to links."
+msgstr "HTML tidak diizinkan, tetapi etiket paragraf akan ditambahkan otomatis dan URL akan dirubah menjadi tautan."
+
+#: djangopeople/templates/edit_bio.html:18
+msgid "Update bio"
+msgstr "Perbaharui bio"
+
+#: djangopeople/templates/edit_finding.html:3
+#: djangopeople/templates/edit_finding.html:9
+msgid "Edit contact information"
+msgstr "Sunting informasi kontak"
+
+#: djangopeople/templates/edit_finding.html:15
+msgid "Contact details"
+msgstr "RIncian kontak"
+
+#: djangopeople/templates/edit_finding.html:29
+msgid "E-mail *"
+msgstr "E-mail *"
+
+#: djangopeople/templates/edit_finding.html:43
+msgid "Other profiles"
+msgstr "Profil lain"
+
+#: djangopeople/templates/edit_finding.html:45
+#: djangopeople/templates/signup.html:102
+msgid "Got profiles on other sites? Enter the URLs below:"
+msgstr "Dapat profil di situs lain? Masukkan URL dibawah ini:"
+
+#: djangopeople/templates/edit_finding.html:54
+msgid "Instant messaging"
+msgstr "Pesan sesaat"
+
+#: djangopeople/templates/edit_finding.html:56
+#: djangopeople/templates/signup.html:113
+msgid "Use any instant messaging software?"
+msgstr "Menggunakan perangkat lunak pesan sesaat apapun?"
+
+#: djangopeople/templates/edit_finding.html:66
+msgid "Privacy settings"
+msgstr "Pengaturan pribadi"
+
+#: djangopeople/templates/edit_finding.html:68
+#: djangopeople/templates/signup.html:125
+msgid ""
+"You can set your profile page not to show up in external search engine "
+"results (such as Google or Yahoo!)"
+msgstr "Anda dapat menyetel halaman profil tidak muncul di hasil mesin pencarian eksternal (seperti Google atau Yahoo!)"
+
+#: djangopeople/templates/edit_finding.html:91
+msgid "Save changes"
+msgstr "Simpan perubahan"
+
+#: djangopeople/templates/edit_location.html:25
+#: djangopeople/templates/signup.html:57
+msgid ""
+"<strong>Zoom and center the map on your location</strong>. Your map location"
+" will be shared in public, so only make it as accurate as makes you "
+"comfortable."
+msgstr "<strong>TIngkatkan dan tengahi peta di tempat anda</strong>. Tempat peta anda akan dibagi ke umum, jadi hanya membuat tepat yang membuat anda nyaman."
+
+#: djangopeople/templates/edit_location.html:38
+msgid "Location *"
+msgstr "Tempat *"
+
+#: djangopeople/templates/edit_location.html:41
+#: djangopeople/templates/signup.html:75
+msgid ""
+"A short textual description of your location will be displayed on the site. "
+"We attempt to derive this from your position on the map, but you can "
+"customise it if you like."
+msgstr "Sebuah gambaran teks pendek dati tempat anda akan ditampilkan pada situs. Kami berusaha untuk memperoleh ini dati tempat anda pada peta, tetapi anda dapat menyesuaiakannya jika anda suka."
+
+#: djangopeople/templates/edit_location.html:63
+msgid "Change location"
+msgstr "Rubah tempat"
+
+#: djangopeople/templates/edit_password.html:17
+msgid "Change password"
+msgstr "Rubah sandi"
+
+#: djangopeople/templates/edit_portfolio.html:3
+#: djangopeople/templates/edit_portfolio.html:17
+msgid "Update your portfolio"
+msgstr "Perbaharui portofolio anda"
+
+#: djangopeople/templates/edit_portfolio.html:21
+msgid ""
+"Show off the sites and projects you've personally built (or contributed to) "
+"using Django."
+msgstr "Peragakan situs dan proyek pribadi anda telah bangun (atau bantu) menggunakan DJango."
+
+#: djangopeople/templates/edit_portfolio.html:24
+msgid "Update portfolio"
+msgstr "Perbaharui portofolio"
+
+#: djangopeople/templates/edit_skills.html:3
+#: djangopeople/templates/edit_skills.html:9
+msgid "Update your skills"
+msgstr "Perbaharui keterampilan anda"
+
+#: djangopeople/templates/edit_skills.html:15
+msgid "Update skills"
+msgstr "Perbaharui keterampilan"
+
+#: djangopeople/templates/form.html:3
+msgid "Please correct the errors below and submit the form again."
+msgstr "Silahkaan perbaiki kesalahan dibawah ini dan ajukan formulir kembali."
+
+#: djangopeople/templates/index.html:33
+#, python-format
+msgid "Showing %(counter)s recent signups (out of %(total_people)s)"
+msgstr "Menampilkan %(counter)s daftar saat ini (dari %(total_people)s)"
+
+#: djangopeople/templates/index.html:33
+#, python-format
+msgid ""
+"if you're a Django developer, why not <a href=\"%(signup_url)s\">add "
+"yourself</a> to the site?"
+msgstr "jika anda pengembang Django, kenapa tidak <a href=\"%(signup_url)s\">tambah diri anda</a> ke situs?"
+
+#: djangopeople/templates/index.html:50
+msgid ""
+"Looking for a Django job? check out <a "
+"href=\"http://djangogigs.com/\">Djangogigs.com</a>"
+msgstr "Mencari pekerjaan Django? periksa <a href=\"http://djangogigs.com/\">Djangogigs.com</a>"
+
+#: djangopeople/templates/irc_active.html:4
+#: djangopeople/templates/irc_active.html:7
+msgid "Active on IRC in the past hour"
+msgstr "Aktif di IRC di jam terakhir"
+
+#: djangopeople/templates/irc_active.html:8
+msgid "No one is currently active"
+msgstr "Tidak satupun saat ini aktif"
+
+#: djangopeople/templates/irc_active.html:26
+#, python-format
+msgid "<strong>%(nick)s</strong>, active %(since)s ago"
+msgstr "<strong>%(nick)s</strong>, aktif%(since)s lalu"
+
+#: djangopeople/templates/login.html:50
+msgid "Your login attempt failed."
+msgstr "Usaha masuk anda gagal."
+
+#: djangopeople/templates/login.html:58
+msgid "Lost your password?"
+msgstr "Kehilangan sandi anda?"
+
+#: djangopeople/templates/login.html:69
+msgid "Or sign in with your OpenID"
+msgstr "Atau masuk dengan OpenID anda"
+
+#: djangopeople/templates/login.html:78
+msgid "OpenID not working?"
+msgstr "OpenID tidak bekerja?"
+
+#: djangopeople/templates/login.html:81
+msgid "Log in with OpenID"
+msgstr "Masuk dengan OpenID"
+
+#: djangopeople/templates/profile.html:53
+msgid "(change)"
+msgstr "(rubah)"
+
+#: djangopeople/templates/profile.html:66
+msgid "(edit bio)"
+msgstr "(sunting bio)"
+
+#: djangopeople/templates/profile.html:66
+msgid "Create your bio"
+msgstr "Buat bio anda"
+
+#: djangopeople/templates/profile.html:73
+msgid "(edit skills)"
+msgstr "(sunting keterampilan)"
+
+#: djangopeople/templates/profile.html:78
+msgid "Save"
+msgstr "Simpan"
+
+#: djangopeople/templates/profile.html:81
+#, python-format
+msgid "Looking for <strong>%(type)s</strong> work"
+msgstr "Mencari <strong>%(type)s</strong> bekerja"
+
+#: djangopeople/templates/profile.html:86
+#, python-format
+msgid "Finding %(name)s"
+msgstr "Menemukan %(name)s"
+
+#: djangopeople/templates/profile.html:86
+#: djangopeople/templates/profile.html:109
+msgid "(edit)"
+msgstr "(sunting)"
+
+#: djangopeople/templates/profile.html:88
+msgid "email:"
+msgstr "email:"
+
+#: djangopeople/templates/profile.html:91
+msgid "blog:"
+msgstr "blog:"
+
+#: djangopeople/templates/profile.html:95
+#, python-format
+msgid "(active %(since)s ago)"
+msgstr "(aktif %(since)s lalu)"
+
+#: djangopeople/templates/profile.html:109
+#, python-format
+msgid "%(name)s's Django portfolio"
+msgstr "Portofolio Django %(name)s"
+
+#: djangopeople/templates/profile.html:110
+#, python-format
+msgid "Django projects %(name)s has contributed to"
+msgstr "%(name)s Proyek Django telah dibantu"
+
+#: djangopeople/templates/profile.html:116
+#, python-format
+msgid "<a href=\"%(portfolio_url)s\">Add some sites</a> to your portfolio"
+msgstr "<a href=\"%(portfolio_url)s\">Tambah beberapa situs</a> ke portofolio anda"
+
+#: djangopeople/templates/profile.html:123
+#, python-format
+msgid "People near %(name)s"
+msgstr "Orang dekat %(name)s"
+
+#: djangopeople/templates/profile.html:130
+#, python-format
+msgid "%(counter)s mile away"
+msgid_plural "%(counter)s miles away"
+msgstr[0] "%(counter)s bermil-mil jauhnya"
+
+#: djangopeople/templates/recent.html:3 djangopeople/templates/recent.html:9
+msgid "Recent people"
+msgstr "Orang belakangan ini"
+
+#: djangopeople/templates/search.html:3 djangopeople/templates/search.html:9
+#, python-format
+msgid "Search: %(q)s"
+msgstr "Cari: %(q)s"
+
+#: djangopeople/templates/search.html:3 djangopeople/templates/search.html:9
+#: djangopeople/templates/search.html:12
+msgid "Search"
+msgstr "Cari"
+
+#: djangopeople/templates/search.html:10
+#, python-format
+msgid "%(counter)s result"
+msgid_plural "%(counter)s results"
+msgstr[0] "%(counter)s hasil"
+
+#: djangopeople/templates/search.html:11
+msgid "Terms must be three or more characters"
+msgstr "Istilah harus tiga atau lebih karakter"
+
+#: djangopeople/templates/search.html:13
+msgid "This tool searches by username, first name and last name."
+msgstr "Alat ini mencari berdasarkan nama pengguna, nama awal dan nama akhir."
+
+#: djangopeople/templates/search.html:27
+msgid "No users found."
+msgstr "Tidak ada pengguna ditemukan."
+
+#: djangopeople/templates/signup.html:4
+msgid "Sign up"
+msgstr "Daftar"
+
+#: djangopeople/templates/signup.html:15
+msgid "Sign up as a Django Person"
+msgstr "Daftar sebagai Orang Django"
+
+#: djangopeople/templates/signup.html:21
+#, python-format
+msgid ""
+"Got an <strong class=\"openid\">OpenID</strong>? <a "
+"href=\"%(openid_url)s\">Sign up with your OpenID now!</a>"
+msgstr "Dapat sebuah <strong class=\"openid\">OpenID</strong>? <a href=\"%(openid_url)s\">Masuk dengan OpenID anda sekarang!</a>"
+
+#: djangopeople/templates/signup.html:23
+#, python-format
+msgid ""
+"Your new account will be associated with with your OpenID: <strong "
+"class=\"openid\">%(openid)s</strong> (<a "
+"href=\"%(openid_signout)s?next=%(signup_url)s\">don't associate</a>)"
+msgstr "Akun baru anda akan terhubung dengan OpenID anda: <strong class=\"openid\">%(openid)s</strong> (<a href=\"%(openid_signout)s?next=%(signup_url)s\">jangan terhubung</a>)"
+
+#: djangopeople/templates/signup.html:26
+msgid "1. Tell us who you are"
+msgstr "1. Katakan kepada kami siapa anda"
+
+#: djangopeople/templates/signup.html:56
+msgid "2. Tell us where you live"
+msgstr "2. Katakan kepada kami dimana anda tinggal"
+
+#: djangopeople/templates/signup.html:60
+msgid ""
+"Latitude and longitude are missing. Please use the map to provide your "
+"location."
+msgstr "Lintang dan bujur hilang. Silahkan gunakan peta untuk menyediakan tempat anda."
+
+#: djangopeople/templates/signup.html:90
+msgid "3. And a bit about you …"
+msgstr "3. Dan sedikit tentang anda ..."
+
+#: djangopeople/templates/signup.html:123
+msgid "4. Your privacy settings"
+msgstr "4. Pengaturan pribadi anda"
+
+#: djangopeople/templates/signup.html:139
+msgid "5. Your skills and interests"
+msgstr "5. Keterampilan dan minat anda"
+
+#: djangopeople/templates/signup.html:141
+msgid ""
+"Tag yourself with your particular skills and interests, e.g. postgresql, "
+"nginx, css. Separate them with commas; spaces are allowed."
+msgstr "Etiket diri anda sendiri dengan keterampilan dan minat khusus anda, sebagai contoh postgresql, nginx, css. Pisahkan mereka dengan koma; spasi diizinkan."
+
+#: djangopeople/templates/signup.html:150
+msgid "Sign me up"
+msgstr "Daftarkan saya"
+
+#: djangopeople/templates/skill.html:8
+#, python-format
+msgid "%(counter)s Django Person mention this skill"
+msgid_plural "%(counter)s Django People mention this skill"
+msgstr[0] "%(counter)s Orang DJango menyebutkan keterampilan ini"
+
+#: djangopeople/templates/skills.html:4
+msgid "Skills"
+msgstr "Keterampilan"
+
+#: djangopeople/templates/password_reset/recovery_done.html:3
+#: djangopeople/templates/password_reset/recovery_done.html:5
+msgid "New password set"
+msgstr "Sandi baru disetel"
+
+#: djangopeople/templates/password_reset/recovery_done.html:9
+#, python-format
+msgid ""
+"Your password has successfully been reset. You can use it right now on the "
+"<a href=\"%(login_url)s\">login page</a>."
+msgstr "Sandi anda telah berhasil di setel kembali. Anda dapat menggunakannya sekarang di <a href=\"%(login_url)s\">halaman masuk</a>."
+
+#: djangopeople/templates/password_reset/recovery_form.html:3
+#: djangopeople/templates/password_reset/recovery_form.html:5
+#: djangopeople/templates/password_reset/reset.html:3
+#: djangopeople/templates/password_reset/reset.html:5
+msgid "Recover your account"
+msgstr "Pulihkan akun anda"
+
+#: djangopeople/templates/password_reset/recovery_form.html:9
+msgid ""
+"Enter your username and we'll send an account recovery link to the e-mail "
+"address associated with your account."
+msgstr "Masukkan nama pengguna anda dan kami akan mengirimkan tautan pemulihan akun ke alamat e-mail terhubung dengan akun anda."
+
+#: djangopeople/templates/password_reset/recovery_form.html:13
+msgid "Recover account"
+msgstr "Pulihkan akun"
+
+#: djangopeople/templates/password_reset/recovery_form.html:17
+#, python-format
+msgid ""
+"An email has just been sent to <strong>%(email)s</strong>. Use the link in "
+"it to set a new password."
+msgstr "Sebuah email telah dikirim ke <strong>%(email)s</strong>.  Gunakan tautan itu untuk menyetel sandi baru."
+
+#: djangopeople/templates/password_reset/reset.html:9
+#, python-format
+msgid ""
+"Sorry, this password reset link is invalid. You can still <a "
+"href=\"%(recovery_url)s\">request a new one</a>."
+msgstr "Maaf, tautan setel kembali sandi ini tidak sah. Anda dapat masih <a href=\"%(recovery_url)s\">meminta satu yang baru</a>."
+
+#: djangopeople/templates/password_reset/reset.html:11
+#, python-format
+msgid "Hi, <strong>%(username)s</strong>. Please choose your new password."
+msgstr "Hai, <strong>%(username)s</strong>. Silahkan pilih sandi baru anda."
+
+#: djangopeople/templates/password_reset/reset.html:14
+msgid "Set new password"
+msgstr "Setel sandi baru"

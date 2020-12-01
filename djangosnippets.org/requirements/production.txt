@@ -1,0 +1,10 @@
+-r base.txt
+certifi==2020.6.20
+django-redis-cache==3.0.0
+gevent==20.6.2
+greenlet==0.4.16
+raven==6.10.0
+redis==3.5.3
+gunicorn==20.0.4
+hiredis==1.1.0
+sentry-sdk==0.17.8

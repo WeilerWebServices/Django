@@ -1,0 +1,5 @@
+-r requirements.txt
+django-debug-toolbar==1.10.1
+flake8
+pep8-naming
+transifex-client==0.13.4

@@ -1,0 +1,1171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# ‌‌‌ ‌‌‌‌, 2014
+# Ali Nikneshan <ali@nikneshan.com>, 2012
+# Arash Fazeli <a.fazeli@gmail.com>, 2012
+# ‌‌‌ ‌‌‌‌, 2014
+# Mohammad Hossein Mojtahedi <Mhm5000@gmail.com>, 2015
+# Pouya Abbassi, 2016
+# Pouya Abbassi, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Django People\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-10 08:03+0000\n"
+"PO-Revision-Date: 2016-07-02 01:13+0000\n"
+"Last-Translator: Pouya Abbassi\n"
+"Language-Team: Persian (http://www.transifex.com/django/djangopeople/language/fa/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fa\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: default_settings.py:40
+msgid "English"
+msgstr "انگلیسی"
+
+#: django_openidauth/models.py:8 djangopeople/models.py:123
+msgid "User"
+msgstr "کاربر"
+
+#: django_openidauth/models.py:9
+#: django_openidconsumer/templates/openid_failure.html:27
+#: django_openidconsumer/templates/openid_signin.html:25
+#: djangopeople/templates/login.html:75
+msgid "OpenID"
+msgstr "OpenID"
+
+#: django_openidauth/models.py:10
+msgid "Creation date"
+msgstr "تاریخ ایجاد"
+
+#: django_openidauth/views.py:69 django_openidauth/views.py:88
+#, python-format
+msgid "%s has been associated with your account"
+msgstr "%s به حساب کاربری شما متصل شد"
+
+#: django_openidauth/views.py:74 django_openidauth/views.py:93
+#, python-format
+msgid ""
+"%s could not be associated with your account, as it is already associated "
+"with a different account"
+msgstr "%s نمی تواند به حساب کابری شما متصل شود، زیرا قبلا به حساب کابری دیگری متصل شده است."
+
+#: django_openidauth/views.py:105
+msgid "You need to set a password if you want to remove all of your OpenIDs"
+msgstr "شما برای حذف تمام OpenID های خود می بایست کلمه عبوری تعیین نمایید"
+
+#: django_openidauth/views.py:111
+#, python-format
+msgid "%s has been removed from your account"
+msgstr "%s از حساب شما حذف شد"
+
+#: django_openidauth/templates/openid_associations.html:2
+#: django_openidauth/templates/openid_associations.html:19
+msgid "OpenID associations"
+msgstr "ارتباطات OpenID"
+
+#: django_openidauth/templates/openid_associations.html:32
+msgid "Your account is currently associated with the following OpenID:"
+msgid_plural ""
+"Your account is currently associated with the following OpenIDs:"
+msgstr[0] "حساب شما هم اکنون به حساب های زیر متصل است."
+
+#: django_openidauth/templates/openid_associations.html:35
+msgid "Remove association"
+msgstr "حذف ارتباط"
+
+#: django_openidauth/templates/openid_associations.html:41
+msgid ""
+"You are currently logged in with the following OpenID. Click \"associate\" "
+"to allow it to be used to sign in to your account."
+msgid_plural ""
+"You are currently logged with the following OpenIDs. Click \"associate\" to "
+"allow an OpenID to be used to sign in to your account."
+msgstr[0] "شما با استفاده از OpenID زیر وارد شده اید. روی \"ارتباط\" کلیک کنید تا مجوز ورود با این حساب صادر شود"
+
+#: django_openidauth/templates/openid_associations.html:44
+msgid "Associate"
+msgstr "ارتباط"
+
+#: django_openidauth/templates/openid_associations.html:50
+msgid "To associate a new OpenID with this account, sign in with it here:"
+msgstr "برای ارتباط یک OpenID با این حساب، اینجا وارد شوید:"
+
+#: django_openidauth/templates/openid_associations.html:55
+msgid "Authenticate and associate with this account"
+msgstr "تایید هویت و ارتباط با این حساب"
+
+#: django_openidconsumer/views.py:89
+msgid "i-names are not supported"
+msgstr "i-name پشتیبانی نمیشود"
+
+#: django_openidconsumer/views.py:95
+msgid "The OpenID was invalid"
+msgstr "OpenID نامعتبر بود"
+
+#: django_openidconsumer/views.py:121
+msgid "The request was cancelled"
+msgstr "تقاضا لغو شد."
+
+#: django_openidconsumer/views.py:125
+msgid "Setup needed"
+msgstr "نیاز به تنظیمات دارد"
+
+#: django_openidconsumer/templates/openid_failure.html:3
+msgid "Open ID failed, Sign in with your OpenID"
+msgstr "Open ID شکست خورد. با Open ID خود وارد شوید."
+
+#: django_openidconsumer/templates/openid_failure.html:19
+#: django_openidconsumer/templates/openid_signin.html:3
+#: django_openidconsumer/templates/openid_signin.html:19
+msgid "Sign in with your OpenID"
+msgstr " با Open ID خود وارد شوید."
+
+#: django_openidconsumer/templates/openid_failure.html:23
+msgid "OpenID failed"
+msgstr "Open ID شکست خورد."
+
+#: django_openidconsumer/templates/openid_failure.html:31
+#: django_openidconsumer/templates/openid_signin.html:29
+msgid "Sign in"
+msgstr "ورود"
+
+#: djangopeople/constants.py:28
+msgid "#django IRC"
+msgstr "#django IRC"
+
+#: djangopeople/forms.py:49
+msgid "Drag and zoom the map until the crosshair matches your location"
+msgstr "نقشه را زوم کنید و بکشید تا با منطقه شما هماهنگ شود"
+
+#: djangopeople/forms.py:112 djangopeople/templates/base.html:41
+msgid "Username"
+msgstr "نام کاربری"
+
+#: djangopeople/forms.py:114 djangopeople/forms.py:350
+msgid "First name"
+msgstr "نام "
+
+#: djangopeople/forms.py:115 djangopeople/forms.py:351
+msgid "Last name"
+msgstr "نام خانوادگی"
+
+#: djangopeople/forms.py:116 djangopeople/forms.py:352
+msgid "E-mail"
+msgstr "ایمیل"
+
+#: djangopeople/forms.py:117 djangopeople/forms.py:540
+#: djangopeople/templates/base.html:41
+msgid "Password"
+msgstr "گذرواژه"
+
+#: djangopeople/forms.py:119
+msgid "Password (again)"
+msgstr "گذرواژه (دوباره)"
+
+#: djangopeople/forms.py:123 djangopeople/models.py:124
+msgid "Bio"
+msgstr "بیوگرافی"
+
+#: djangopeople/forms.py:125 djangopeople/forms.py:353
+#: djangopeople/templates/edit_finding.html:34
+msgid "Blog URL"
+msgstr "آدرس وبلاگ"
+
+#: djangopeople/forms.py:127 djangopeople/forms.py:267
+#: djangopeople/models.py:74 djangopeople/models.py:88
+#: djangopeople/models.py:127 djangopeople/models.py:252
+#: djangopeople/templates/edit_location.html:44
+msgid "Country"
+msgstr "کشور"
+
+#: djangopeople/forms.py:130 djangopeople/forms.py:271
+#: djangopeople/models.py:132
+msgid "Location"
+msgstr "محل"
+
+#: djangopeople/forms.py:132 djangopeople/forms.py:268
+#: djangopeople/models.py:107 djangopeople/models.py:128
+#: djangopeople/templates/edit_location.html:59
+msgid "Region"
+msgstr "منطقه"
+
+#: djangopeople/forms.py:135 djangopeople/forms.py:355
+#: djangopeople/templates/edit_finding.html:71
+msgid "Search visibility"
+msgstr "قابل جستجو"
+
+#: djangopeople/forms.py:143 djangopeople/forms.py:363
+#: djangopeople/templates/edit_finding.html:76
+msgid "E-mail privacy"
+msgstr "حریم ایمیل"
+
+#: djangopeople/forms.py:151 djangopeople/forms.py:371
+#: djangopeople/templates/edit_finding.html:81
+msgid "IM privacy"
+msgstr "حریم مسنجر"
+
+#: djangopeople/forms.py:158 djangopeople/forms.py:378
+#: djangopeople/templates/edit_finding.html:86
+msgid "IRC tracking"
+msgstr "پویش IRC"
+
+#: djangopeople/forms.py:166 djangopeople/forms.py:386
+#: djangopeople/templates/edit_finding.html:39
+msgid "Looking for work?"
+msgstr "دنبال کار میگردید؟"
+
+#: djangopeople/forms.py:174
+msgid "Your skills"
+msgstr "توانایی‌های شما"
+
+#: djangopeople/forms.py:182
+msgid "Password is required"
+msgstr "احتیاج به رمز دارد"
+
+#: djangopeople/forms.py:189
+msgid "Passwords must match"
+msgstr "رمزها باید یکسان باشند"
+
+#: djangopeople/forms.py:193
+msgid "That username is unavailable"
+msgstr "نام کاربری معتبر نیست"
+
+#: djangopeople/forms.py:217 djangopeople/forms.py:399
+msgid "That e-mail is already in use"
+msgstr "این ایمیل قبلا استفاده شده"
+
+#: djangopeople/forms.py:230 djangopeople/forms.py:300
+msgid "The region you selected does not match the country"
+msgstr "هیچ کشوری در منطقه ای که انتخاب کرده اید وجود ندارد"
+
+#: djangopeople/forms.py:238
+msgid "Change skills"
+msgstr "تغییر توانایی ها"
+
+#: djangopeople/forms.py:286
+msgid "The ISO code of the country you selected is invalid."
+msgstr "کد ایزوی انتخابی شما نامعتبر است."
+
+#: djangopeople/forms.py:439
+#, python-format
+msgid "URL %d"
+msgstr "آدرس %d"
+
+#: djangopeople/forms.py:442
+#, python-format
+msgid "Title %d"
+msgstr "تیتر %d"
+
+#: djangopeople/forms.py:472
+msgid "You need to provide a URL"
+msgstr "شما نیاز به یک آدرس خصوصی دارید"
+
+#: djangopeople/forms.py:478
+msgid "Current Password"
+msgstr "رمز فعلی"
+
+#: djangopeople/forms.py:480
+msgid "New Password"
+msgstr "رمز جدید"
+
+#: djangopeople/forms.py:481
+msgid "New Password (again)"
+msgstr "رمز جدید(دوباره)"
+
+#: djangopeople/forms.py:493
+msgid "Please submit your current password."
+msgstr "لطفا رمز فعلی خود را ارسال کنید"
+
+#: djangopeople/forms.py:504
+msgid "The passwords did not match."
+msgstr "رمزها مطابقت ندارند . شسیشس شسی"
+
+#: djangopeople/forms.py:545
+msgid "Your password was invalid"
+msgstr "رمز شما غلط است."
+
+#: djangopeople/groupedselect.py:81
+msgid ""
+"Select a valid choice. That choice is not one of the available choices."
+msgstr "یک انتخاب معتبر انجام دهید. آن انتخاب از بین انتخاب های معتبر نیست."
+
+#: djangopeople/models.py:40 djangopeople/models.py:87
+msgid "Name"
+msgstr "نام"
+
+#: djangopeople/models.py:41
+msgid "ISO code"
+msgstr "کد ایزو"
+
+#: djangopeople/models.py:42
+msgid "ISO numeric code"
+msgstr "کد رقمی ایزو"
+
+#: djangopeople/models.py:44
+msgid "ISO alpha-3"
+msgstr "ایزو الفا-3"
+
+#: djangopeople/models.py:45
+msgid "FIPS code"
+msgstr "کد FIPS"
+
+#: djangopeople/models.py:46
+msgid "Continent"
+msgstr "فاره"
+
+#: djangopeople/models.py:48
+msgid "Capital"
+msgstr "پایتخت"
+
+#: djangopeople/models.py:49
+msgid "Area in square kilometers"
+msgstr "مساحت به کیلومتر مربع"
+
+#: djangopeople/models.py:50
+msgid "Population"
+msgstr "جمعیت"
+
+#: djangopeople/models.py:51
+msgid "Currency code"
+msgstr "کد کشور"
+
+#: djangopeople/models.py:53
+msgid "Languages"
+msgstr "زبان"
+
+#: djangopeople/models.py:54
+msgid "Geonames ID"
+msgstr "آیدی Geoname"
+
+#: djangopeople/models.py:63 djangopeople/models.py:96
+msgid "Number of people"
+msgstr "تعداد افراد"
+
+#: djangopeople/models.py:75
+msgid "Countries"
+msgstr "کشور ها"
+
+#: djangopeople/models.py:86
+msgid "Code"
+msgstr "کد"
+
+#: djangopeople/models.py:89
+msgid "Flag"
+msgstr "پرچم"
+
+#: djangopeople/models.py:108 djangopeople/templates/country.html:86
+msgid "Regions"
+msgstr "منطقه"
+
+#: djangopeople/models.py:130 djangopeople/templates/edit_location.html:49
+msgid "Latitude"
+msgstr "عرض جغرافیایی"
+
+#: djangopeople/models.py:131 djangopeople/templates/edit_location.html:54
+msgid "Longitude"
+msgstr "طول جغرافیایی"
+
+#: djangopeople/models.py:138
+msgid "Profile views"
+msgstr "نمای پروفایل"
+
+#: djangopeople/models.py:145
+msgid "OpenID server"
+msgstr "سرور OpenID"
+
+#: djangopeople/models.py:147
+msgid "OpenID delegate"
+msgstr "محول کردن به OpenID"
+
+#: djangopeople/models.py:151
+msgid "Last active on IRC"
+msgstr "آخرین فعالیت در IRC"
+
+#: djangopeople/models.py:159
+msgid "<none>"
+msgstr "هیچ کدام"
+
+#: djangopeople/models.py:220
+msgid "Django person"
+msgstr "جانگویی"
+
+#: djangopeople/models.py:221
+msgid "Django people"
+msgstr "مردم جانگو"
+
+#: djangopeople/models.py:235 djangopeople/models.py:250
+msgid "Title"
+msgstr "تیتر"
+
+#: djangopeople/models.py:236 djangopeople/models.py:251
+msgid "URL"
+msgstr "آدرس"
+
+#: djangopeople/models.py:238
+msgid "Contributor"
+msgstr "حامی"
+
+#: djangopeople/models.py:244
+msgid "Portfolio site"
+msgstr "سایت پورتفولیو"
+
+#: djangopeople/models.py:245
+msgid "Portfolio sites"
+msgstr "سایتهای پورتفولیو"
+
+#: djangopeople/models.py:258
+msgid "Country site"
+msgstr "سایت کشور"
+
+#: djangopeople/models.py:259
+msgid "Country sites"
+msgstr "سایتهای کشور"
+
+#: djangopeople/views.py:553
+#, python-format
+msgid "No Tag found matching \"%s\"."
+msgstr "هیچ تگی مطابق با \"%s\"  یافت نشد"
+
+#: djangopeople/templates/404.html:3 djangopeople/templates/404.html.py:9
+msgid "404 error"
+msgstr "خطای 404"
+
+#: djangopeople/templates/404.html:13
+msgid "Page not found."
+msgstr "صفحه پیدا نشد"
+
+#: djangopeople/templates/500.html:3 djangopeople/templates/500.html.py:9
+msgid "500 error"
+msgstr "خطای 500"
+
+#: djangopeople/templates/500.html:13
+msgid ""
+"Internal server error. This has been reported to the site administrator."
+msgstr "خطای داخلی سرور. این خطا به مدیر سایت گزارش شد."
+
+#: djangopeople/templates/about.html:4
+msgid "About"
+msgstr "درباره"
+
+#: djangopeople/templates/about.html:9
+msgid "About Django People"
+msgstr "درباره مردم جانگو"
+
+#: djangopeople/templates/about.html:14
+#, python-format
+msgid ""
+"Django People lists %(count)s <a "
+"href=\"https://www.djangoproject.com/\">Django</a> developers from around "
+"the world, in %(countries)s different countries. The aim of the site is to "
+"help Django developers find like-minded souls near them, and hopefully kick-"
+"start some local meet-ups and user groups."
+msgstr "اعضای جنگو، تعداد %(count)s نفر توسعه دهنده‌ی <a href=\"https://www.djangoproject.com/\">جنگو</a> را از تمام دنیا در تعداد%(countries)s کشور لیست کرده اند. هدف این سایت کمک به توسعه دهندگان جنگو در یافتن روح‌های هم‌فکر در نزدیکی آنها و احتمالا شروع ملاقاتهای محلی و گروه‌های کاربری است."
+
+#: djangopeople/templates/about.html:16
+msgid ""
+"The site was originally built and open-sourced by <a href=\"/simon/\">Simon "
+"Willison</a> and <a href=\"/natbat/\">Natalie Downe</a>. The code is <a "
+"href=\"https://github.com/brutasse/djangopeople\">available on github</a>, "
+"you can post feedback and bug reports on the repository's <a "
+"href=\"https://github.com/brutasse/djangopeople/issues\">issues page</a>."
+msgstr "این سایت در اصل توسط <a href=\"/simon/\">سیمون ویلسون</a> و <a href=\"/natbat/\">ناتالی دوون</a> ساخته و اوپن‌سورس شد. کد آن <a href=\"https://github.com/brutasse/djangopeople\">در گیتهاب در دسترس است</a>. شما میتوانید نظرات و گزارش‌های خطا را در صفحه‌ی <a href=\"https://github.com/brutasse/djangopeople/issues\">صفحه‌ی ایرادات</a> ریپازیتوری، منتشر کنید. "
+
+#: djangopeople/templates/about.html:18
+msgid "Colophon"
+msgstr "شناسنامه"
+
+#: djangopeople/templates/about.html:20
+msgid ""
+"Country data and location lookups come from <a "
+"href=\"http://www.geonames.org/\">GeoNames</a>, while the maps themselves "
+"are powered by the <a href=\"https://developers.google.com/maps/\">Google "
+"Maps API</a>. Country flags and icons are by <a "
+"href=\"http://famfamfam.com/lab/icons/\">Mark James</a>; US state flags come"
+" <a href=\"http://en.wikipedia.org/wiki/Flags_of_the_U.S._states\" "
+"title=\"Flags of the U.S. states\">from Wikipedia</a>. Profile pictures come"
+" from <a href=\"http://en.gravatar.com/\">Gravatar</a>."
+msgstr "اطلاعات کشور و یافتن موقعیت، از <a href=\"http://www.geonames.org/\">GeoNames</a> به دست آمده‌اند، در حالی که نقشه‌ی آنها توسط <a href=\"https://developers.google.com/maps/\">رابط نرم افزاری نقشه‌ی گوگل</a> نیرو گرفته است. نقشه‌ی کشورها و نمادها با <a href=\"http://famfamfam.com/lab/icons/\">مارک جیمز</a> است؛ نقشه‌ی ایالات امریکا از <a href=\"http://en.wikipedia.org/wiki/Flags_of_the_U.S._states\" title=\"نقشه‌ی ایالات آمریکا\">from Wikipedia</a> آمده است. عکسهای پروفایل، از <a href=\"http://en.gravatar.com/\">گِرَواتار</a> آمده است."
+
+#: djangopeople/templates/about.html:22
+#, python-format
+msgid ""
+"The site uses <a href=\"http://code.google.com/p/django-tagging/\">django-"
+"tagging</a> by <a href=\"/insin/\">Jonathan Buchanan</a> for the <a "
+"href=\"/skills/\">skills feature</a>. <a "
+"href=\"http://simonwillison.net/2008/Jan/24/upgrade/\" title=\"Django "
+"People: OpenID and microformats\">OpenID support</a> (used by "
+"%(openid_users)s people) depends on <a href=\"http://openidenabled.com"
+"/python-openid/\">python-openid</a> (version 2.2.5)  and <a "
+"href=\"http://code.google.com/p/django-openid/\">django-openid</a>."
+msgstr "این سایت از <a href=\"http://code.google.com/p/django-tagging/\">django-tagging</a> که توسط <a href=\"/insin/\">جاناتان بوچانان</a> برای <a href=\"/skills/\">skills feature</a> ساخته شده، استفاده میکند. <a href=\"http://simonwillison.net/2008/Jan/24/upgrade/\" title=\"Django People: OpenID and microformats\">اوپن آی‌دی</a> (که توسط %(openid_users)s استفاده میشود) مربوط به <a href=\"http://openidenabled.com/python-openid/\">python-openid</a> (نسخه‌ی 2.2.5) و <a href=\"http://code.google.com/p/django-openid/\">django-openid</a> است."
+
+#: djangopeople/templates/about.html:24
+msgid ""
+"Deployment is <a href=\"http://gunicorn.org\">gunicorn</a>, hosted on <a "
+"href=\"http://www.heroku.com/\">Heroku</a>."
+msgstr "محیط توسعه <a href=\"http://gunicorn.org\">gunicorn</a> است، میزبانی شده در <a href=\"http://www.heroku.com/\">Heroku</a>."
+
+#: djangopeople/templates/about.html:26
+msgid "A Django joint."
+msgstr "اتصال جانگو"
+
+#: djangopeople/templates/base.html:24
+msgid "home"
+msgstr "خانه"
+
+#: djangopeople/templates/base.html:25
+msgid "about"
+msgstr "درباره"
+
+#: djangopeople/templates/base.html:26
+msgid "search"
+msgstr "جستجو"
+
+#: djangopeople/templates/base.html:30
+msgid "sign up as a django person"
+msgstr "به عنوان یک عضو جنگو ثبت نام کنید"
+
+#: djangopeople/templates/base.html:33
+#, python-format
+msgid "You are logged in as <strong>%(user)s</strong>"
+msgstr "شما به عنوان <strong>%(user)s</strong> وارد شدید."
+
+#: djangopeople/templates/base.html:34
+msgid "your profile"
+msgstr "پروفایل شما"
+
+#: djangopeople/templates/base.html:35
+msgid "your account"
+msgstr "حساب شما"
+
+#: djangopeople/templates/base.html:36
+msgid "log out"
+msgstr "خروج"
+
+#: djangopeople/templates/base.html:41 djangopeople/templates/login.html:4
+#: djangopeople/templates/login.html:43 djangopeople/templates/login.html:65
+msgid "Log in"
+msgstr "ورود"
+
+#: djangopeople/templates/base.html:43
+#, python-format
+msgid "Or <a href=\"%(openid_url)s\">log in with <strong>OpenID</strong>"
+msgstr "یا <a href=\"%(openid_url)s\">با <strong>OpenID</strong> وارد شوید"
+
+#: djangopeople/templates/base.html:49
+msgid "Django People"
+msgstr "مردم جانگو"
+
+#: djangopeople/templates/base.html:50
+msgid ""
+"Discover users of the <a href=\"https://www.djangoproject.com/\">Django Web "
+"framework</a> near you"
+msgstr "کاربران <a href=\"https://www.djangoproject.com/\">فریموورک وب جنگو ی</a> نزدیک خود را پیدا کنید."
+
+#: djangopeople/templates/base.html:61
+msgid "Hosted on <span class=\"heroku\">Heroku</span>"
+msgstr "میزبانی شده در <span class=\"heroku\">Heroku</span>"
+
+#: djangopeople/templates/country.html:36
+#: djangopeople/templates/country.html:38
+#, python-format
+msgid "%(counter)s Django person"
+msgid_plural "%(counter)s Django people"
+msgstr[0] "%(counter)s عضو جنگو"
+
+#: djangopeople/templates/country.html:53
+#, python-format
+msgid "Django community sites in %(country)s"
+msgstr "سایتهای اجتماع جنگو در %(country)s"
+
+#: djangopeople/templates/country.html:64
+#, python-format
+msgid "Page %(num)s of %(total)s"
+msgstr "صفحه‌ی %(num)s از %(total)s"
+
+#: djangopeople/templates/country.html:90 djangopeople/templates/index.html:46
+#: djangopeople/templates/irc_active.html:8
+#: djangopeople/templates/skills.html:23
+#, python-format
+msgid "%(counter)s person"
+msgid_plural "%(counter)s people"
+msgstr[0] "%(counter)s نفر"
+
+#: djangopeople/templates/country_looking_for.html:3
+#, python-format
+msgid "People in %(country)s looking for %(looking_for)s"
+msgstr "تعداد %(country)s نفر به دنبال %(looking_for)s میگردند"
+
+#: djangopeople/templates/country_looking_for.html:9
+#, python-format
+msgid "%(country)s, seeking %(looking_for)s work"
+msgstr "%(country)s, به دنبال %(looking_for)s کار"
+
+#: djangopeople/templates/country_sites.html:4
+#: djangopeople/templates/country_sites.html:10
+#, python-format
+msgid "Sites in %(country)s"
+msgstr "سایت در %(country)s"
+
+#: djangopeople/templates/country_sites.html:19
+#, python-format
+msgid "<a href=\"%(url)s\">%(title)s</a> by <a href=\"%(author_url)s\">%(author)s</a>"
+msgstr "<a href=\"%(url)s\">%(title)s</a> توسط <a href=\"%(author_url)s\">%(author)s</a>"
+
+#: djangopeople/templates/delete_account.html:4
+msgid ""
+"Please enter your password to confirm your ownership of this account. You "
+"account removal will be effective immediately and permanently after you "
+"submit this form."
+msgstr "لطفا کلمه‌ی عبور خود را وارد کنید تا مالکیت این حساب تایید شود. حذف حساب کاربری شما بعد از ارسال این فورم به صورت آنی انجام میشود و همیشگی خواهد بود."
+
+#: djangopeople/templates/delete_account.html:7
+msgid "Delete my account"
+msgstr "حذف حساب من"
+
+#: djangopeople/templates/delete_account.txt:1
+#, python-format
+msgid "Dear %(name)s,"
+msgstr " %(name)s عزیز،"
+
+#: djangopeople/templates/delete_account.txt:3
+#, python-format
+msgid ""
+"It seems you're willing to delete your account from %(domain)s. You can "
+"delete your account by following the instructions on the link below:"
+msgstr "به نظر میرسد شما قصد حذف حساب کاربری از %(domain)s را دارید. شما میتوانید حساب کاربری خود را از طریق دنبال کردن راهنمای پیوند زیر حذف کنید."
+
+#: djangopeople/templates/delete_account.txt:7
+msgid "For security reasons, this link will stay valid for only 5 minutes."
+msgstr "به دلایل امنیتی این لینک فقط برای ۵ دقیقه معتبر است."
+
+#: djangopeople/templates/delete_account_done.html:3
+msgid "Account deleted"
+msgstr "حساب حذف شد"
+
+#: djangopeople/templates/delete_account_done.html:6
+msgid "It's sad to see you go, but your account was successfully deleted."
+msgstr "خیلی متاسفیم که شما ما را ترک می کنید. حساب شما با موفقیت حذف شد."
+
+#: djangopeople/templates/delete_account_next.html:4
+msgid ""
+"Check your email! An email was just sent to you, follow the link in it to "
+"finalize your account deletion."
+msgstr "ایمیل خود را چک کنید! یک ایمیل برای شما ارسال شده است، برای حذف حساب کاربری خود، پیوندی که در ایمیل وجود دارد را دنبال کنید."
+
+#: djangopeople/templates/delete_account_request.html:3
+#: djangopeople/templates/delete_account_request.html:5
+msgid "Account deletion"
+msgstr "حذف حساب کاربری"
+
+#: djangopeople/templates/delete_account_request.html:8
+msgid ""
+"You are about to request complete removal of your account and data from this"
+" site. This will be done using the following process:"
+msgstr "شما درحال درخواست حذف کامل حساب کاربری خود و اطلاعات آن در این سایت هستید. این مهم با دنبال کردن عملیات زیر انجام میشود:"
+
+#: djangopeople/templates/delete_account_request.html:10
+msgid ""
+"When you submit the following form, you will receive an email with a private"
+" link."
+msgstr "وقتی شما این فورم را ارسال کنید، ایمیلی با پیوندی خصوصی دریافت خواهید کرد."
+
+#: djangopeople/templates/delete_account_request.html:11
+msgid ""
+"This link (valid for 5 minutes only) will take you to a page where you can "
+"enter your password to actually delete your account."
+msgstr "این پیوند (که فقط برای 5دقیقه معتبر است) شما را به صفحه‌ای میبرد که برای حذف حساب کاربری خود، باید در آن رمز عبور خود را وارد کنید."
+
+#: djangopeople/templates/delete_account_request.html:13
+msgid "If you are ready to proceed, submit the form below."
+msgstr "اگر آماده‌ی ادامه هستید، فورم زیر را ارسال کنید."
+
+#: djangopeople/templates/delete_account_request.html:16
+msgid "Request account deletion"
+msgstr "درخواست حذف حساب کاربری"
+
+#: djangopeople/templates/delete_account_subject.txt:1
+#, python-format
+msgid "Account deletion on %(domain)s"
+msgstr "حدف حساب کاربری در %(domain)s"
+
+#: djangopeople/templates/edit_account.html:3
+#: djangopeople/templates/edit_account.html:11
+msgid "Account settings"
+msgstr "تنظیمات حساب کاربری"
+
+#: djangopeople/templates/edit_account.html:16
+#: djangopeople/templates/edit_location.html:4
+#: djangopeople/templates/edit_location.html:18
+msgid "Change your location"
+msgstr "مکان خود را تغییر دهید"
+
+#: djangopeople/templates/edit_account.html:17
+msgid "Update your contact details"
+msgstr "جزئیات اطلاعات تماس خود را به‌روز کنید"
+
+#: djangopeople/templates/edit_account.html:18
+msgid "Change your privacy settings"
+msgstr "تنظیمات حریم خصوصی خود را تغییر دهید."
+
+#: djangopeople/templates/edit_account.html:19
+msgid "Add sites to your portfolio"
+msgstr "سایتهایی به نمونه‌کار خود اضافه کنید"
+
+#: djangopeople/templates/edit_account.html:20
+#: djangopeople/templates/edit_password.html:3
+#: djangopeople/templates/edit_password.html:11
+msgid "Change your password"
+msgstr "رمز عبور خود را تغییر دهید"
+
+#: djangopeople/templates/edit_account.html:20
+#, python-format
+msgid ""
+"You do not have a password set - <a href=\"%(password_url)s\">set one "
+"now?</a>"
+msgstr "شما رمز عبوری تنظیم نکرده اید - <a href=\"%(password_url)s\">الآن یکی ثبت میکنید؟</a>"
+
+#: djangopeople/templates/edit_account.html:21
+msgid "Delete your account"
+msgstr "حذف حساب کاربری شما"
+
+#: djangopeople/templates/edit_account.html:27
+#, python-format
+msgid ""
+"You have %(counter)s OpenID associated with your account. <a "
+"href=\"%(openid_url)s\">Manage your OpenID</a>"
+msgid_plural ""
+"You have %(counter)s OpenIDs associated with your account. <a "
+"href=\"%(openid_url)s\">Manage your OpenIDs</a>"
+msgstr[0] "شما تعداد %(counter)s OpenID متصل به حساب خود دارید. <a href=\"%(openid_url)s\">OpenIDهای خود را مدیریت کنید</a>"
+
+#: djangopeople/templates/edit_account.html:30
+#, python-format
+msgid ""
+"If you have an <a href=\"http://openid.net/\">OpenID</a>, you can <a "
+"href=\"%(openid_url)s\">associate it with your account</a>. This will allow "
+"you to log in using your OpenID instead of your password."
+msgstr "شما یک <a href=\"http://openid.net/\">OpenID</a> دارید، میتوانید آنرا <a href=\"%(openid_url)s\">به حساب کاربری خود متصل کنید</a>. اینکار به شما اجازه‌ی ورود با OpenID به جای پسورد را میدهد."
+
+#: djangopeople/templates/edit_account.html:34
+msgid "Advanced: Use your profile page as an OpenID"
+msgstr "پیشرفته: از صفحه‌ی پروفایل خود به عنوان OpenID استفاده کنید."
+
+#: djangopeople/templates/edit_account.html:37
+msgid ""
+"If you already have an OpenID, you can configure your Django People profile "
+"page to delegate to it. This means you'll be able to use your profile page "
+"as an OpenID, without having to sign in to Django People first."
+msgstr "اگر در حال حاظر یک OpenID دارید، میتوانید آنرا تنظیم کنید تا به عنوان صفحه‌ی پروفایل شما نمایش داده شود. این یعنی شما میتوانید صفحه‌ی پروفایل خود را به عنوان یک OpenID استفاده کنید، بدون اینکه نیازی به ورود به مردم جانگو داشته باشید."
+
+#: djangopeople/templates/edit_account.html:40
+msgid ""
+"Read <a href=\"http://simonwillison.net/2006/Dec/19/openid/\">more about "
+"delegation</a> to learn how to use this form."
+msgstr "برای یادگیری نحوه‌ی استفاده از این فورم، <a href=\"http://simonwillison.net/2006/Dec/19/openid/\">بیشتر درمورد نماینده</a> بخوانید."
+
+#: djangopeople/templates/edit_account.html:45
+msgid "Update OpenID delegation"
+msgstr "به روز رسانی نمایدگی OpenID"
+
+#: djangopeople/templates/edit_bio.html:3
+#: djangopeople/templates/edit_bio.html:9
+msgid "Edit your bio"
+msgstr "زندگینامه‌ی خود را ویرایش کنید"
+
+#: djangopeople/templates/edit_bio.html:14
+msgid ""
+"No HTML allowed, but paragraph tags will be added automatically and URLs "
+"will be turned in to links."
+msgstr "امکان وارد کردن HTML وجود ندارد، ولی تگهای پاراگراف به صورت خودکار اضافه میشوند و نشانیهای اینترنتی به صورت خودکار تبدیل به لینک میشوند."
+
+#: djangopeople/templates/edit_bio.html:18
+msgid "Update bio"
+msgstr "به روز رسانی زندگینامه"
+
+#: djangopeople/templates/edit_finding.html:3
+#: djangopeople/templates/edit_finding.html:9
+msgid "Edit contact information"
+msgstr "ویرایش اطلاعات تماس"
+
+#: djangopeople/templates/edit_finding.html:15
+msgid "Contact details"
+msgstr "جزئیات اطلاعات تماس"
+
+#: djangopeople/templates/edit_finding.html:29
+msgid "E-mail *"
+msgstr "ایمیل *"
+
+#: djangopeople/templates/edit_finding.html:43
+msgid "Other profiles"
+msgstr "پروفایلهای دیگر"
+
+#: djangopeople/templates/edit_finding.html:45
+#: djangopeople/templates/signup.html:102
+msgid "Got profiles on other sites? Enter the URLs below:"
+msgstr "پروفایلی در سایت دیگر دارید؟ لینک آنرا در زیر وارد کنید:"
+
+#: djangopeople/templates/edit_finding.html:54
+msgid "Instant messaging"
+msgstr "پیام‌رسانی فوری"
+
+#: djangopeople/templates/edit_finding.html:56
+#: djangopeople/templates/signup.html:113
+msgid "Use any instant messaging software?"
+msgstr "از نرم‌افزار پیام رسان فوری استفاده میکنید؟"
+
+#: djangopeople/templates/edit_finding.html:66
+msgid "Privacy settings"
+msgstr "تنظیمات حریم خصوصی"
+
+#: djangopeople/templates/edit_finding.html:68
+#: djangopeople/templates/signup.html:125
+msgid ""
+"You can set your profile page not to show up in external search engine "
+"results (such as Google or Yahoo!)"
+msgstr "شما میتوانید تنظیم کنید که صفحه‌ی پروفایلتان در نتایج جستجوی موتورهای جستجوی خارجی (نظیر گوگل و یاهو!) نمایش داده نشود"
+
+#: djangopeople/templates/edit_finding.html:91
+msgid "Save changes"
+msgstr "ذخیره‌ی تغییرات"
+
+#: djangopeople/templates/edit_location.html:25
+#: djangopeople/templates/signup.html:57
+msgid ""
+"<strong>Zoom and center the map on your location</strong>. Your map location"
+" will be shared in public, so only make it as accurate as makes you "
+"comfortable."
+msgstr "<strong>نقشه‌ی محل خود را زوم کنید و به وسط بیاورید</strong>، نقشه‌ی محل شما به صورت عمومی به اشتراک گذاشته خواهد شد، بنابر این مطمئن شوید که به اندازه‌ای دقیق است که با آن راحت هستید."
+
+#: djangopeople/templates/edit_location.html:38
+msgid "Location *"
+msgstr "محل *"
+
+#: djangopeople/templates/edit_location.html:41
+#: djangopeople/templates/signup.html:75
+msgid ""
+"A short textual description of your location will be displayed on the site. "
+"We attempt to derive this from your position on the map, but you can "
+"customise it if you like."
+msgstr "یک توضیح متنی کوتاه از محل شما در سایت نمایش داده خواهد شد. ما سعی میکنیم از روی موقعیت شما بر‌روی نقشه آنرا ایجاد کنیم، ولی اگر مایل باشید میتوانید آنرا مطابق میل خود شخص‌سازی کنید."
+
+#: djangopeople/templates/edit_location.html:63
+msgid "Change location"
+msgstr "تغییر محل"
+
+#: djangopeople/templates/edit_password.html:17
+msgid "Change password"
+msgstr "تغییر رمز عبور"
+
+#: djangopeople/templates/edit_portfolio.html:3
+#: djangopeople/templates/edit_portfolio.html:17
+msgid "Update your portfolio"
+msgstr "به‌روز رسانی نمونه‌کار‌های شما"
+
+#: djangopeople/templates/edit_portfolio.html:21
+msgid ""
+"Show off the sites and projects you've personally built (or contributed to) "
+"using Django."
+msgstr "سایتها و پروژه هایی که شخصا با استفاده از جنگو ایجاد کرده اید (یا در آنها مشارکت کرده اید) را نمایش دهید."
+
+#: djangopeople/templates/edit_portfolio.html:24
+msgid "Update portfolio"
+msgstr "به‌روز رسانی نمونه کارها"
+
+#: djangopeople/templates/edit_skills.html:3
+#: djangopeople/templates/edit_skills.html:9
+msgid "Update your skills"
+msgstr "مهارتهای خود را به‌روز رسانی کنید"
+
+#: djangopeople/templates/edit_skills.html:15
+msgid "Update skills"
+msgstr "به‌روز رسانی مهارتها"
+
+#: djangopeople/templates/form.html:3
+msgid "Please correct the errors below and submit the form again."
+msgstr "لطفا خطاهای زیر را اصلاح نموده و فورم را مجددا ارسال کنید."
+
+#: djangopeople/templates/index.html:33
+#, python-format
+msgid "Showing %(counter)s recent signups (out of %(total_people)s)"
+msgstr "نمایش %(counter)s ثبت نام جدید (از %(total_people)s نفر)"
+
+#: djangopeople/templates/index.html:33
+#, python-format
+msgid ""
+"if you're a Django developer, why not <a href=\"%(signup_url)s\">add "
+"yourself</a> to the site?"
+msgstr "اگر توسعه دهنده‌ی جنگو هستید، چرا <a href=\"%(signup_url)s\">خود را به سایت اضافه نمیکنید</a>؟"
+
+#: djangopeople/templates/index.html:50
+msgid ""
+"Looking for a Django job? check out <a "
+"href=\"http://djangogigs.com/\">Djangogigs.com</a>"
+msgstr "به دنبال شغل میگردید؟ <a href=\"http://djangogigs.com/\">Djangogigs.com</a> را ببینید"
+
+#: djangopeople/templates/irc_active.html:4
+#: djangopeople/templates/irc_active.html:7
+msgid "Active on IRC in the past hour"
+msgstr "در یک ساعت اخیر در IRC فعال بود"
+
+#: djangopeople/templates/irc_active.html:8
+msgid "No one is currently active"
+msgstr "هیچ‌کسی در حال حاضر فعال نیست"
+
+#: djangopeople/templates/irc_active.html:26
+#, python-format
+msgid "<strong>%(nick)s</strong>, active %(since)s ago"
+msgstr "<strong>%(nick)s</strong>, %(since)s پیش فعال بود"
+
+#: djangopeople/templates/login.html:50
+msgid "Your login attempt failed."
+msgstr "تلاش شما برای ورود ناموفق بود"
+
+#: djangopeople/templates/login.html:58
+msgid "Lost your password?"
+msgstr "رمز عبور خود را فراموش کرده‌اید؟"
+
+#: djangopeople/templates/login.html:69
+msgid "Or sign in with your OpenID"
+msgstr "یا از طریق OpenID خود وارد شوید"
+
+#: djangopeople/templates/login.html:78
+msgid "OpenID not working?"
+msgstr "OpenID کار نمیکند؟"
+
+#: djangopeople/templates/login.html:81
+msgid "Log in with OpenID"
+msgstr "با OpenID وارد شوید"
+
+#: djangopeople/templates/profile.html:53
+msgid "(change)"
+msgstr "(تغییر)"
+
+#: djangopeople/templates/profile.html:66
+msgid "(edit bio)"
+msgstr "(ویرایش زندگینامه)"
+
+#: djangopeople/templates/profile.html:66
+msgid "Create your bio"
+msgstr "یک زندگینامه‌ی جدید بسازید"
+
+#: djangopeople/templates/profile.html:73
+msgid "(edit skills)"
+msgstr "(ویرایش مهارت‌ها)"
+
+#: djangopeople/templates/profile.html:78
+msgid "Save"
+msgstr "ذخیره"
+
+#: djangopeople/templates/profile.html:81
+#, python-format
+msgid "Looking for <strong>%(type)s</strong> work"
+msgstr "جستجو برای شغل <strong>%(type)s</strong>"
+
+#: djangopeople/templates/profile.html:86
+#, python-format
+msgid "Finding %(name)s"
+msgstr "در‌حال یافتن %(name)s"
+
+#: djangopeople/templates/profile.html:86
+#: djangopeople/templates/profile.html:109
+msgid "(edit)"
+msgstr "(ویرایش)"
+
+#: djangopeople/templates/profile.html:88
+msgid "email:"
+msgstr "ایمیل:"
+
+#: djangopeople/templates/profile.html:91
+msgid "blog:"
+msgstr "وبلاگ:"
+
+#: djangopeople/templates/profile.html:95
+#, python-format
+msgid "(active %(since)s ago)"
+msgstr "(%(since)s پیش فعال بود)"
+
+#: djangopeople/templates/profile.html:109
+#, python-format
+msgid "%(name)s's Django portfolio"
+msgstr "نمونه‌کار جنگوی %(name)s"
+
+#: djangopeople/templates/profile.html:110
+#, python-format
+msgid "Django projects %(name)s has contributed to"
+msgstr "پروژه‌های جنگوی %(name)s کمک کردند به"
+
+#: djangopeople/templates/profile.html:116
+#, python-format
+msgid "<a href=\"%(portfolio_url)s\">Add some sites</a> to your portfolio"
+msgstr "چند سایت <a href=\"%(portfolio_url)s\">به نمونه‌کارهای خود</a> اضافه کنید"
+
+#: djangopeople/templates/profile.html:123
+#, python-format
+msgid "People near %(name)s"
+msgstr "افراد نزدیک %(name)s"
+
+#: djangopeople/templates/profile.html:130
+#, python-format
+msgid "%(counter)s mile away"
+msgid_plural "%(counter)s miles away"
+msgstr[0] "%(counter)s مایل دورتر"
+
+#: djangopeople/templates/recent.html:3 djangopeople/templates/recent.html:9
+msgid "Recent people"
+msgstr "افراد اخیر"
+
+#: djangopeople/templates/search.html:3 djangopeople/templates/search.html:9
+#, python-format
+msgid "Search: %(q)s"
+msgstr "جستجو: %(q)s"
+
+#: djangopeople/templates/search.html:3 djangopeople/templates/search.html:9
+#: djangopeople/templates/search.html:12
+msgid "Search"
+msgstr "جستجو"
+
+#: djangopeople/templates/search.html:10
+#, python-format
+msgid "%(counter)s result"
+msgid_plural "%(counter)s results"
+msgstr[0] "%(counter)s نتیجه"
+
+#: djangopeople/templates/search.html:11
+msgid "Terms must be three or more characters"
+msgstr "تعداد کاراکترهای دوره باید سه یا بیشتر باشد"
+
+#: djangopeople/templates/search.html:13
+msgid "This tool searches by username, first name and last name."
+msgstr "این ابزار، بر اساس نام کاربری، نام و نام‌خانوادگی جستجو میکند."
+
+#: djangopeople/templates/search.html:27
+msgid "No users found."
+msgstr "کاربری یافت نشد"
+
+#: djangopeople/templates/signup.html:4
+msgid "Sign up"
+msgstr "ثبت‌نام"
+
+#: djangopeople/templates/signup.html:15
+msgid "Sign up as a Django Person"
+msgstr "به عنوان یکی از اعضای جنگو ثبت‌نام کنید"
+
+#: djangopeople/templates/signup.html:21
+#, python-format
+msgid ""
+"Got an <strong class=\"openid\">OpenID</strong>? <a "
+"href=\"%(openid_url)s\">Sign up with your OpenID now!</a>"
+msgstr "<strong class=\"openid\">OpenID</strong> دارید؟ <a href=\"%(openid_url)s\">همین حالا از طریق OpenID خود ثبت نام کنید!</a>"
+
+#: djangopeople/templates/signup.html:23
+#, python-format
+msgid ""
+"Your new account will be associated with with your OpenID: <strong "
+"class=\"openid\">%(openid)s</strong> (<a "
+"href=\"%(openid_signout)s?next=%(signup_url)s\">don't associate</a>)"
+msgstr "حساب کاربری جدید شما با OpenID شما پیوسته خواهد شد: <strong class=\"openid\">%(openid)s</strong>  (<a href=\"%(openid_signout)s?next=%(signup_url)s\">اینکار را انجام نده</a>)"
+
+#: djangopeople/templates/signup.html:26
+msgid "1. Tell us who you are"
+msgstr "۱- به ما بگویید شما چه‌کسی هستید"
+
+#: djangopeople/templates/signup.html:56
+msgid "2. Tell us where you live"
+msgstr "۲- به ما بگویید ساکن کجا هستید"
+
+#: djangopeople/templates/signup.html:60
+msgid ""
+"Latitude and longitude are missing. Please use the map to provide your "
+"location."
+msgstr "طول و عرض جغرافیایی یافت نشد. لطفا با استفاده از نقشه، محل خود را ارائه دهید."
+
+#: djangopeople/templates/signup.html:90
+msgid "3. And a bit about you …"
+msgstr "۳- و کمی درمورد شما..."
+
+#: djangopeople/templates/signup.html:123
+msgid "4. Your privacy settings"
+msgstr "۴- تنظیمات حریم خصوصی شما"
+
+#: djangopeople/templates/signup.html:139
+msgid "5. Your skills and interests"
+msgstr "۵- مهارتها و علایق شما"
+
+#: djangopeople/templates/signup.html:141
+msgid ""
+"Tag yourself with your particular skills and interests, e.g. postgresql, "
+"nginx, css. Separate them with commas; spaces are allowed."
+msgstr "خود را با مهارتهایی که دارید نشانه‌گذاری کنید، به عنوان مثال postgresql, nginx, css. آنها را با ویرگول از یکدیگر جدا کنید؛ فضای خالی مجاز است."
+
+#: djangopeople/templates/signup.html:150
+msgid "Sign me up"
+msgstr "مرا ثبت نام کن"
+
+#: djangopeople/templates/skill.html:8
+#, python-format
+msgid "%(counter)s Django Person mention this skill"
+msgid_plural "%(counter)s Django People mention this skill"
+msgstr[0] "%(counter)s بار اعضای جنگو این مهارت را ذکر کرده‌اند"
+
+#: djangopeople/templates/skills.html:4
+msgid "Skills"
+msgstr "مهارتها"
+
+#: djangopeople/templates/password_reset/recovery_done.html:3
+#: djangopeople/templates/password_reset/recovery_done.html:5
+msgid "New password set"
+msgstr "رمز‌عبور جدید تنظیم شد"
+
+#: djangopeople/templates/password_reset/recovery_done.html:9
+#, python-format
+msgid ""
+"Your password has successfully been reset. You can use it right now on the "
+"<a href=\"%(login_url)s\">login page</a>."
+msgstr "رمز عبور شما با موفقیت ریست شد. شما همین حالا میتوانید در <a href=\"%(login_url)s\">صفحه‌ی ورود</a> از آن استفاده کنید."
+
+#: djangopeople/templates/password_reset/recovery_form.html:3
+#: djangopeople/templates/password_reset/recovery_form.html:5
+#: djangopeople/templates/password_reset/reset.html:3
+#: djangopeople/templates/password_reset/reset.html:5
+msgid "Recover your account"
+msgstr "بازیابی حساب‌ شما"
+
+#: djangopeople/templates/password_reset/recovery_form.html:9
+msgid ""
+"Enter your username and we'll send an account recovery link to the e-mail "
+"address associated with your account."
+msgstr "نام کاربری خود را وارد کنید و ما ایمیلی حاوی لینک بازیابی حساب ایمیلی که به آن نام کاربری متصل است، ارسال خواهیم کرد."
+
+#: djangopeople/templates/password_reset/recovery_form.html:13
+msgid "Recover account"
+msgstr "بازیابی حساب"
+
+#: djangopeople/templates/password_reset/recovery_form.html:17
+#, python-format
+msgid ""
+"An email has just been sent to <strong>%(email)s</strong>. Use the link in "
+"it to set a new password."
+msgstr "همین حالا یک ایمیل برای <strong>%(email)s</strong> ارسال شد. برای تنظیم رمز‌عبور جدید، از لینک درون آن استفاده کنید."
+
+#: djangopeople/templates/password_reset/reset.html:9
+#, python-format
+msgid ""
+"Sorry, this password reset link is invalid. You can still <a "
+"href=\"%(recovery_url)s\">request a new one</a>."
+msgstr "متاسفیم. این لینک ریست رمزعبور نامعتبر است. شما هنوز میتوانید <a href=\"%(recovery_url)s\">یکی دیگر درخواست کنید</a>."
+
+#: djangopeople/templates/password_reset/reset.html:11
+#, python-format
+msgid "Hi, <strong>%(username)s</strong>. Please choose your new password."
+msgstr "سلام، <strong>%(username)s</strong>. لطفا رمز عبور خود را انتخاب کنید."
+
+#: djangopeople/templates/password_reset/reset.html:14
+msgid "Set new password"
+msgstr "تنظیم رمز عبور جدید"

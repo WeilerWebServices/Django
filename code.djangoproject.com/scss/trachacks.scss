@@ -1,0 +1,386 @@
+@import "utils";
+@import "noshadows";
+
+body, th, tr { // reset trac default
+    font-size: medium;
+    line-height: normal;
+}
+
+a:link, a:visited {
+  border-bottom: 0;
+  color: $green;
+  &:hover{
+    background-color: transparent;
+    color: lighten($green, 20%);
+  }
+}
+.subfooter :link {
+  &:hover,
+  &:hover {
+    color: $white;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, span {
+  &:target {
+    background: $green-very-light;
+  }
+}
+
+.inlinebuttons {
+  input {
+    border-radius: 5px;
+    height: 2.5em;
+  }
+}
+
+div.trac-content {
+  border: 0;
+}
+.wikipage {
+  padding-left: 0;
+  .trac-content {
+    margin: 0;
+    padding: 0;
+  }
+  h1, h2, h3 {
+    margin-left: 0;
+  }
+}
+
+.full-width [role="main"] {
+  max-width: 1400px;
+}
+
+#changelog h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+#changelog p {
+  line-height: 1.4;
+}
+
+#changelog .inlinebuttons {
+  float: none;
+}
+
+#ticketchange .changes, #changelog .changes {
+  background: $white;
+  border-color: $gray-line;
+  color: $text;
+  float: left;
+  margin: 0 0 15px 0;
+  border-collapse: separate;
+}
+
+#ticketchange .changes {
+  margin-top: 5px;
+}
+
+#ticketchange .changes th {
+  vertical-align: middle;
+}
+
+#ticketchange .comment, #changelog .comment {
+  clear: both;
+}
+
+div.change {
+  overflow: hidden;
+}
+
+.trac-ticket-buttons {
+  float: right;
+  position: relative;  // needed to be able to use z-index
+  z-index: 100;
+}
+
+.trac-ticket-buttons form {
+  display: inline-block;
+}
+
+pre.wiki {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0.5em;
+  white-space: pre-wrap;
+}
+
+#content.ticket {
+  width: auto;
+}
+
+.foldable {
+  :link, :visited {
+    border-color: $gray-line;
+    border-radius: 5px;
+    background-color: $green-very-light;
+    color: $text;
+    &:hover {
+      background-color: $green-light;
+      color: $text;
+    }
+  }
+}
+
+
+#field-description,
+#comment {
+  width: 97%; // XXX: it should be 100% - 1em
+}
+
+legend {
+  color: $text;
+  font-weight: normal;
+  font-size: medium;
+}
+
+#filters td label {
+  // reset trac default
+  font-size: medium;
+}
+
+blockquote.citation {
+  // Replace trac's default with values from _style.css for blockquote
+  // TODO: figure out how to centralize this instead of copy/pasting it here
+  margin: 25px 0;
+  border: 1px solid $green-very-light;
+  padding: 15px 20px 15px 70px;
+}
+
+#delete,
+#rename,
+#save {
+  margin-left: 0;
+}
+
+#ticket {
+  background-color: $white;
+  border-color: $gray-line;
+  table.properties {
+    border-top-color: $gray-line;
+    th, th.missing {
+      color: $text;
+    }
+  }
+  .description {
+    h3 {
+      color: $text;
+      border-bottom-color: $gray-line;
+    }
+  }
+  h2 :link {
+    color: $green;
+    &:hover {
+      color: lighten($green, 20%);
+    }
+  }
+  .date {
+    color: $text;
+  }
+}
+
+#ticket-next-steps {
+    background-color: $warning-yellow;
+    border: 1px solid $gray-line;
+    margin-top: 15px;
+}
+
+div[role="main"]{
+  #metanav {
+    @include sans-serif;
+
+    ul {
+      text-align: left;
+
+
+      li {
+        border-right: 0;
+        padding: 1em;
+
+        a {
+          font-size: 16px;
+          color: $green;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        &.first {
+          padding-left: 0;
+        }
+      }
+    }
+
+    form.trac-logout {
+      display: inline-block;
+
+      button {
+        color: $green;
+        border-bottom: 0;
+        height: auto;
+
+        &:hover {
+          background-color: inherit;
+          color: $green;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  #mainnav {
+    border: 0;
+    border-radius: 0;
+    margin: .66em 0 .33em 7px;
+
+    ul {
+      text-align: left;
+      font-size: 16px;
+
+      li {
+        background: $green-very-light;
+        border: 0;
+        border-radius: 0;
+        text-align: center;
+        padding: 0.5em 0 0.5em 0;
+
+        a, a:hover {
+          background: none;
+          @include sans-serif;
+          color: $green-dark;
+        }
+        &.first {
+            padding-left: 0;
+            border-radius: 3px 0 0 3px;
+            :link {
+              border-radius: 0;
+            }
+        }
+        &.last {
+            padding-left: 0;
+            border-radius: 0 3px 3px 0;
+            :link {
+              border-radius: 0;
+            }
+        }
+        &:hover {
+          background: $green-light;
+        }
+        &.active {
+          background: $green-medium;
+          a {
+            background: none;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+
+  #main {
+    @include sans-serif;
+
+    form input[type="search"],
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="password"],
+    form textarea {
+      // reset some general styles from output.css
+      height: auto;
+      padding: 0.25em 0.5em;
+      margin: 2px;
+      font-size: medium;
+    }
+    form select {
+      height: auto;
+      padding: 0.25em 0.5em;
+      margin: 2px;
+      font-size: medium;
+    }
+
+    fieldset {
+      background: white;
+      border: 1px solid $gray-line;
+      table, th, tr {
+        font-size: 14px;
+      }
+    }
+
+    .inlinebuttons input[type="submit"] {
+      padding: 0.4em 1em;
+    }
+
+    button, input[type="submit"] {
+      background: $green-medium;
+      border: none;
+      color: $white;
+      padding: 0.7em 1em;
+      font-size: 16px;
+      font-weight: normal;
+
+      @include device-min(768px) {
+        right: 1%;
+      }
+
+      i {
+        @include font-size(20);
+        line-height: 1;
+      }
+
+      &:hover,
+      &:focus,
+      &:active {
+        outline: none;
+        background: lighten($green-medium, 4%);
+      }
+    }
+
+    .inlinebuttons input[type="submit"],
+    button.trac-revert {
+      background: #ddd;
+      color: #444;
+      font-size: 1.1rem;
+      height: initial;
+
+      &:hover {
+        background: #666;
+        color: #eee;
+      }
+    }
+
+    table.listing {
+      thead {
+        tr {
+          background: $green-very-light;
+
+          th {
+            background: $green-very-light;
+            border-bottom-color: #d7d7d7;
+            font-size: 14px;
+            font-weight: normal;
+            color: $text;
+            padding: 0.5em;
+            a {
+              color: $text;
+            }
+          }
+        }
+      }
+      tbody {
+        tr {
+          td {
+            padding: 0.5em !important; // :(
+          }
+        }
+      }
+    }
+
+    .timeline h1 {
+      margin: 0;
+    }
+  }
+}
